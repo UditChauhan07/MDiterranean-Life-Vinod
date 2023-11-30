@@ -1,17 +1,15 @@
-import React from 'react'
-import ItineraryImages from './ItineraryImage'
-import ItineraryContent from './ItineraryContent'
-import Styles from './Style.module.scss'
+import React from 'react';
+import ItineraryImages from './ItineraryImage';
+import ItineraryContent from './ItineraryContent';
+import Styles from './Style.module.scss';
 
 function ItinraryPages() {
   return (
     <div>
-    <ItineraryImages/>
-    <ItineraryContent/>
-
-    
+      <ItineraryImages />
+      <ItineraryContent />
     </div>
-      )
+  );
 }
 
-export default ItinraryPages
+export default ItinraryPages;

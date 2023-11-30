@@ -25,7 +25,7 @@
       line-height: 28px;
     }
   }
-  .availabilyContainer{
+  .availabilyContainer {
     position: absolute;
     transform: translate(-50%, 5%);
     bottom: 5%;
@@ -37,23 +37,23 @@
     height: 200px;
     display: grid;
     place-content: center;
-    .dateRangeContainer{
+    .dateRangeContainer {
       border-radius: 10px;
       overflow: hidden;
       border: none;
-      &>input{
+      & > input {
         width: 50%;
         height: 100%;
       }
-      .dateRangeHolder1{
+      .dateRangeHolder1 {
       }
-      .dateRangeHolder2{
+      .dateRangeHolder2 {
       }
-     background: rgba(255, 255, 255, 1);
-     width: 450px;
-     height: 60px;
+      background: rgba(255, 255, 255, 1);
+      width: 450px;
+      height: 60px;
     }
-    .availabilyButton{
+    .availabilyButton {
       width: 300px;
       height: 45px;
       background: #000;

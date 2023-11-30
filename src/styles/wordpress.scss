@@ -238,7 +238,7 @@
   height: auto;
 }
 .videoFull video {
-  width: 100%!important;
+  width: 100% !important;
   height: auto;
 }
 
@@ -460,9 +460,9 @@ figcaption {
 .wp-block-column li:hover {
   color: grey;
 }
-.xyz{
-  width:100%;
-  height:100%;
+.xyz {
+  width: 100%;
+  height: 100%;
 }
 
 .imgBanner {
@@ -513,7 +513,7 @@ figcaption {
     font-weight: 300;
     text-align: center !important;
     line-height: 26px;
-    margin-top: .75rem;
+    margin-top: 0.75rem;
     margin-bottom: 15px;
   }
 
@@ -543,11 +543,11 @@ figcaption {
   width: fit-content;
   font-weight: bolder;
   font-family: "NeueHaasUnica", Arial, sans-serif !important;
-
 }
-.sectionTinyTitle > a, .sectionTinyTitle > p{
+.sectionTinyTitle > a,
+.sectionTinyTitle > p {
   color: #000;
-  text-decoration: none!important;
+  text-decoration: none !important;
   border-bottom: 1px solid;
   font-size: 13px;
 }
@@ -582,7 +582,7 @@ figcaption {
 .width70 {
   max-width: 70rem !important;
 }
-.dropcap::first-letter{
+.dropcap::first-letter {
   float: left;
   font-size: 40px;
   line-height: 80%;
@@ -598,7 +598,7 @@ figcaption {
 .mt-3R {
   margin-top: 3rem;
 }
-.mt3R-lrA{
+.mt3R-lrA {
   margin: 3rem auto 0;
 }
 
@@ -709,15 +709,15 @@ figcaption {
   // word-break: break-all;
 }
 
-.mfigure figure{
+.mfigure figure {
   margin: 0 !important;
 }
 
 .row {
   --bs-gutter-x: 0rem;
 }
-.m-fig figure{
-  margin: 0!important;
+.m-fig figure {
+  margin: 0 !important;
 }
 
 // .mlr-12 {
@@ -747,9 +747,9 @@ figcaption {
 
 // 22-05-2023 Add media Query
 @media (max-width: 767px) {
-  .mfigure figure{
+  .mfigure figure {
     margin: 1em 0 !important;
- }
+  }
   .mpad30 {
     padding: 0 30px !important;
   }
@@ -807,7 +807,6 @@ figcaption {
     float: left;
   }
 
-
   .pr-30 {
     padding-right: 0;
   }
@@ -835,7 +834,8 @@ figcaption {
     text-transform: uppercase;
   }
 
-  .sectionTinyTitle, .sectionTinyTitle a {
+  .sectionTinyTitle,
+  .sectionTinyTitle a {
     font-size: 13px;
   }
 
@@ -886,18 +886,18 @@ figcaption {
     font-size: 0.9em;
   }
 }
-@media (max-width:426px) {
-  .headingContainer h2{
-    
+@media (max-width: 426px) {
+  .headingContainer h2 {
     font-size: 38px;
   }
-  .sectionTinyTitle,.sectionTitle{
+  .sectionTinyTitle,
+  .sectionTitle {
     font-size: 28px;
   }
-  .sectionSubTitle{
+  .sectionSubTitle {
     font-size: 16px;
   }
-  .headingContainer p{
+  .headingContainer p {
     font-size: 22px;
   }
 }

@@ -121,7 +121,7 @@
 }
 
 .ShoppingText {
-  font-family: "NeueHaasUnica","Arial","sans-serif";
+  font-family: "NeueHaasUnica", "Arial", "sans-serif";
   margin: 0 auto 0.5rem;
   padding-bottom: 0.25rem;
   -webkit-text-stroke: 0;
@@ -134,15 +134,15 @@
   width: fit-content;
   font-weight: bolder;
 }
-.textStleShop{
+.textStleShop {
   margin-bottom: 3rem;
   margin-top: 3rem;
 }
-.section9 .pagesTitle span p{
+.section9 .pagesTitle span p {
   margin-bottom: 0;
   font-family: "SaolDisplay" !important;
 }
-.pagesTitle span{
+.pagesTitle span {
   cursor: pointer;
 }
 .pagesTitle {
@@ -165,16 +165,16 @@
 }
 
 .pagesAutherDesc {
-  font-family: "NeueHaasUnicaM","Arial","sans-serif" !important;
+  font-family: "NeueHaasUnicaM", "Arial", "sans-serif" !important;
   display: inline-block;
   padding-right: 0.3125rem;
   line-height: 1.6;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  font-size: 14px!important;
+  font-size: 14px !important;
   text-align: center;
-  span{
-      letter-spacing: 0.1em;
+  span {
+    letter-spacing: 0.1em;
   }
 }
 
@@ -183,12 +183,11 @@
 }
 
 .AuthorText {
-  font-family: "NeueHaasUnicaM","Arial","sans-serif" !important;
+  font-family: "NeueHaasUnicaM", "Arial", "sans-serif" !important;
   font-size: 0.7rem;
   text-align: center;
   display: grid;
   margin: 30px auto 0 auto;
-  
 }
 
 .AuthorText p {
@@ -223,7 +222,6 @@
   border-bottom: thin solid #cccccc;
   border-top: thin solid #cccccc;
   padding: 2.5rem 0;
-  
 }
 
 .WhatNew {
@@ -247,7 +245,17 @@
   text-decoration: unset;
   color: #000;
 }
-.section1 button,.section2 button,.section3 button,.section4 button,.section5 button,.section6 button,.section7 button,.section8 button,.section9 button,.section10 button,.section11 button{
+.section1 button,
+.section2 button,
+.section3 button,
+.section4 button,
+.section5 button,
+.section6 button,
+.section7 button,
+.section8 button,
+.section9 button,
+.section10 button,
+.section11 button {
   background-color: transparent;
   border: none;
   margin: 0;
@@ -333,8 +341,8 @@
   color: #000;
   text-decoration: unset;
   transition: color 0.3s ease-in-out;
-  .cards{
-    margin:0 10px !important;
+  .cards {
+    margin: 0 10px !important;
   }
 }
 
@@ -377,15 +385,15 @@
 .fashionCompaigns {
   font-size: 38px;
   font-family: "SaolDisplay", Georgia, Times, serif !important;
-    color: #000;
+  color: #000;
 }
-.sthumbBox{
+.sthumbBox {
   margin-bottom: 0.8rem;
 }
 .sthumbBox .pagesSubTitle {
-  margin:8px 0;
+  margin: 8px 0;
 }
-.sthumbBox .pagesAutherDesc{
+.sthumbBox .pagesAutherDesc {
   margin-bottom: 0;
 }
 .sthumb {
@@ -506,7 +514,6 @@
   }
 }
 @media (max-width: 767px) {
- 
   // .inlineBox {
   //   display: block;
   //   text-align: center;
@@ -514,60 +521,57 @@
   .img120 {
     height: auto;
     width: auto;
-   }
-  .img120ResFull{
+  }
+  .img120ResFull {
     width: 100%;
     height: auto;
   }
   .fashionText {
-    
     font-size: 55px;
-  
   }
-  .WhatNew{
+  .WhatNew {
     font-size: 22px;
   }
-   .topRoundImgFullWidth {
+  .topRoundImgFullWidth {
     height: 240px;
     width: 95%;
-   }
+  }
 }
 @media (max-width: 576px) {
   .topRoundImgFullWidth {
     height: auto;
     width: 100%;
-   }
+  }
 
-  .sthumbBox{
+  .sthumbBox {
     margin-left: 0.8rem;
   }
-  .sthumb{
+  .sthumb {
     width: 70%;
   }
-  .pagesSubTitle{
+  .pagesSubTitle {
     font-size: 16px;
   }
 }
-@media (max-width:426px) {
-  .fashionText{
-    
+@media (max-width: 426px) {
+  .fashionText {
     font-size: 38px;
   }
-  .pagesTitle{
+  .pagesTitle {
     font-size: 28px;
   }
 }
-  @media (max-width: 376px) {
-  .sthumbBox{
+@media (max-width: 376px) {
+  .sthumbBox {
     margin-left: 0;
   }
-  .pagesAutherDesc{
+  .pagesAutherDesc {
     font-size: 12px !important;
   }
-  .sthumb{
+  .sthumb {
     width: 60%;
   }
-  .gridGap{
+  .gridGap {
     padding-left: 0.5rem;
   }
 }

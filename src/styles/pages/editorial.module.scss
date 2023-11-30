@@ -1,126 +1,126 @@
-.authorBox{
-    position: relative;
+.authorBox {
+  position: relative;
+  height: 340px;
+  width: 352px;
+  img {
     height: 340px;
     width: 352px;
-    img{
-        height: 340px;
-        width: 352px;
-        object-fit: cover;
-    }
+    object-fit: cover;
+  }
 }
-.width20{
-    width: 30%;
-    float: left;
-    height: 382px;
+.width20 {
+  width: 30%;
+  float: left;
+  height: 382px;
 }
 
-.m4Rem{
-    padding: 4rem 0 3rem 0;
-    border-bottom: 1px solid #ccc;
+.m4Rem {
+  padding: 4rem 0 3rem 0;
+  border-bottom: 1px solid #ccc;
 }
 
-.authorBoxText{
-    position: absolute;
-    top: 87%;
-    width: 80%;
-    background: #fff;
-    border-left: 5px solid;
-    padding: 1rem 0 1rem 1rem;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    h3{
-        font-size: 25px;
+.authorBoxText {
+  position: absolute;
+  top: 87%;
+  width: 80%;
+  background: #fff;
+  border-left: 5px solid;
+  padding: 1rem 0 1rem 1rem;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  h3 {
+    font-size: 25px;
     line-height: 32px;
     text-align: left;
     vertical-align: top;
     font-weight: 500;
     margin-top: 10px;
     text-transform: uppercase;
-    }
-    p{
-        font-size: 18px;
-        line-height: 1;
-        font-weight: 300;
-        margin: 0 !important;
-    }
+  }
+  p {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 300;
+    margin: 0 !important;
+  }
 }
 
 // 23-05-2023 Add media Query
 @media (max-width: 1400px) {
-    .width20 {
-        width: 30%;
-        float: left;
-        height: 382px;
-    }
+  .width20 {
+    width: 30%;
+    float: left;
+    height: 382px;
+  }
 
-    .authorBox {
-        position: relative;
-        height: 340px;
-        width: 315px;
+  .authorBox {
+    position: relative;
+    height: 340px;
+    width: 315px;
 
-        img {
-            height: 340px;
-            width: 315px;
-            object-fit: cover;
-        }
+    img {
+      height: 340px;
+      width: 315px;
+      object-fit: cover;
     }
+  }
 }
 
 @media (max-width: 1200px) {
-    .width20 {
-        width: 35%;
-        float: left;
-        height: 382px;
-    }
+  .width20 {
+    width: 35%;
+    float: left;
+    height: 382px;
+  }
 
-    .authorBox {
-        position: relative;
-        height: 340px;
-        width: 300px;
+  .authorBox {
+    position: relative;
+    height: 340px;
+    width: 300px;
 
-        img {
-            height: 340px;
-            width: 300px;
-            object-fit: cover;
-        }
+    img {
+      height: 340px;
+      width: 300px;
+      object-fit: cover;
     }
+  }
 }
 
 @media (max-width: 991px) {
-    .width20 {
-        width: 50%;
-        float: left;
-        height: 382px;
-    }
+  .width20 {
+    width: 50%;
+    float: left;
+    height: 382px;
+  }
 
-    .authorBox {
-        position: relative;
-        height: 340px;
-        width: 300px;
+  .authorBox {
+    position: relative;
+    height: 340px;
+    width: 300px;
 
-        img {
-            height: 340px;
-            width: 300px;
-            object-fit: cover;
-        }
+    img {
+      height: 340px;
+      width: 300px;
+      object-fit: cover;
     }
+  }
 }
 
 @media (max-width: 767px) {
-    .width20 {
-        width: 100%;
-        float: left;
-        height: 382px;
-    }
+  .width20 {
+    width: 100%;
+    float: left;
+    height: 382px;
+  }
 
-    .authorBox {
-        position: relative;
-        height: 340px;
-        width: 300px;
+  .authorBox {
+    position: relative;
+    height: 340px;
+    width: 300px;
 
-        img {
-            height: 340px;
-            width: 300px;
-            object-fit: cover;
-        }
+    img {
+      height: 340px;
+      width: 300px;
+      object-fit: cover;
     }
+  }
 }

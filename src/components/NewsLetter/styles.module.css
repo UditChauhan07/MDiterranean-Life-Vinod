@@ -46,7 +46,7 @@
   line-height: 1.1;
   padding-bottom: 1rem;
   color: var(--bmd-black);
-  font-family: "SaolDisplay", Georgia, Times, serif !important;
+  font-family: 'SaolDisplay', Georgia, Times, serif !important;
   @media (max-width: 769px) {
     font-size: 29px;
   }
@@ -61,7 +61,7 @@
   flex-direction: column;
 }
 
-iframe .hs-submit>.actions {
+iframe .hs-submit > .actions {
   text-align: center !important;
 }
 
@@ -75,14 +75,13 @@ iframe .hs-submit>.actions {
 @media (max-width: 500px) {
   .headingContainer {
     font-size: 40px !important;
-
   }
 }
 
 @media screen and (max-width: 767px) {
   .homeGalleryContainer p {
     font-size: 28px;
-    max-width: 275px
+    max-width: 275px;
   }
 
   .styles_grid {
@@ -106,7 +105,6 @@ iframe .hs-submit>.actions {
     position: absolute;
     width: 100%;
   }
-
 }
 
 @media (max-width: 420px) {

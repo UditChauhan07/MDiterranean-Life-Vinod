@@ -1,43 +1,43 @@
 {
-    "travel-experience":{
-        "beach-lovers":{
-            "a-capri-by-sea-island-tour":{
-                "MastHead": {
-                    "title":"A Capri by Sea Island Tour",
-                    "desk": {
-                        "src": "\\package\\c-1.png",
-                        "alt": "..."
-                    },
-                    "mob": {
-                        "src": "\\package\\t-6.png",
-                        "alt": "..."
-                    },
-                    "avail":true
-                },
-                "content":{
-                    "title":"A Capri by Sea Island Tour",
-                    "subTitle":"<p>A typical departure point for Capri by Sea is Marina Grande. Marina Grande is the larger of the two marinas on the island, the one most tourists are familiar with as the ferries operate from there. For landlubbers, Marina Grande offers easy access to a funicular up to the famous Piazza Umberto or grab one of the plentiful taxis up Capri’s infamous narrow and twisting roads to the main shopping area.</p><p>For those adventurous souls, it’s easy to hire a captain and their Gozzo (a spacious open boat with sun cushions that fits about six passengers) to show you Capri as only few see it. Typically your first destination is the smaller Marina called Marina Piccola, located directly across the island from Marina Grande.</p><p>But there are many sights to see before you arrive. For example, on the way out of the harbor, you’ll see a tiny statue of a young boy waving from a rock called Gennarino Scigunizzo di Capri. It depicts Gennarino, a Neapolitan boy or ascugnizzo (the colloquial name for street urchin), who found a new life on Capri. It’s a tradition to greet him as you arrive or leave the island by boat.</p>",
-                    "gallery":[
-                        {
-                            "src":"\\package\\pg-1.png",
-                            "alt":".."
-                        },
-                        {
-                            "src":"\\package\\pg-2.png",
-                            "alt":".."
-                        },
-                        {
-                            "src":"\\package\\pg-3.png",
-                            "alt":".."
-                        },
-                        {
-                            "src":"\\package\\pg-4.png",
-                            "alt":".."
-                        }
-                    ],
-                    "desc":"<h3>TRAVELING CAPRI BY BOAT</h3><p>You’ll pass secret beaches accessible only by boat. Drop anchor, and you’ll likely have the place to yourself. Venture a bit further and look up to see the highest point on the cliffs above, and you’ll be looking at the cliffs next to Villa Jovis, built by Emperor Tiberius. Historians confirmed that Tiberius used these cliffs to execute prisoners and political enemies by pushing them into the sea. Those that survived the fall would be quickly dispatched by soldiers with spears waiting in boats below.</p><p>As you continue round the corner toward Marina Piccola, you’re greeted by the Faraglioni: three towering granite behemoths who have stood sentinel over the bay since time immemorial. According to the Odyssey, these rocks are home to the flesh-eating sirens and were created by the cyclops Polyphemus when he threw them in the sea, attempting to kill Odysseus during his daring escape.</p><p>Myths aside, Marina Piccola sings a different siren song these days. It calls to the ultra-wealthy, and it truly is a thing of dreams. Set against towering cliffs, the narrow beach features exclusive restaurants and bars, but most celebrity visitors bring their own entertainment in the form of superyachts. The water is warm, a cloudless green blue, and the quiet beaches are carpeted with soft white pebbles sanded smooth by time. From the beach, a narrow trail called Via Krupp used by Augustus and Tiberius to access their palaces climbs to the Gardens of Augustus a thousand feet above.</p><p>If the weather is good, your captain may take you further to the famous Blue Grotto, one of many fascinating sea caves that ring the island. Its shallow waters glow electric neon blue when the sun is high, turning the cave walls into an unforgettable, shimmering light show.</p>"
-                }
+  "travel-experience": {
+    "beach-lovers": {
+      "a-capri-by-sea-island-tour": {
+        "MastHead": {
+          "title": "A Capri by Sea Island Tour",
+          "desk": {
+            "src": "\\package\\c-1.png",
+            "alt": "..."
+          },
+          "mob": {
+            "src": "\\package\\t-6.png",
+            "alt": "..."
+          },
+          "avail": true
+        },
+        "content": {
+          "title": "A Capri by Sea Island Tour",
+          "subTitle": "<p>A typical departure point for Capri by Sea is Marina Grande. Marina Grande is the larger of the two marinas on the island, the one most tourists are familiar with as the ferries operate from there. For landlubbers, Marina Grande offers easy access to a funicular up to the famous Piazza Umberto or grab one of the plentiful taxis up Capri’s infamous narrow and twisting roads to the main shopping area.</p><p>For those adventurous souls, it’s easy to hire a captain and their Gozzo (a spacious open boat with sun cushions that fits about six passengers) to show you Capri as only few see it. Typically your first destination is the smaller Marina called Marina Piccola, located directly across the island from Marina Grande.</p><p>But there are many sights to see before you arrive. For example, on the way out of the harbor, you’ll see a tiny statue of a young boy waving from a rock called Gennarino Scigunizzo di Capri. It depicts Gennarino, a Neapolitan boy or ascugnizzo (the colloquial name for street urchin), who found a new life on Capri. It’s a tradition to greet him as you arrive or leave the island by boat.</p>",
+          "gallery": [
+            {
+              "src": "\\package\\pg-1.png",
+              "alt": ".."
+            },
+            {
+              "src": "\\package\\pg-2.png",
+              "alt": ".."
+            },
+            {
+              "src": "\\package\\pg-3.png",
+              "alt": ".."
+            },
+            {
+              "src": "\\package\\pg-4.png",
+              "alt": ".."
             }
+          ],
+          "desc": "<h3>TRAVELING CAPRI BY BOAT</h3><p>You’ll pass secret beaches accessible only by boat. Drop anchor, and you’ll likely have the place to yourself. Venture a bit further and look up to see the highest point on the cliffs above, and you’ll be looking at the cliffs next to Villa Jovis, built by Emperor Tiberius. Historians confirmed that Tiberius used these cliffs to execute prisoners and political enemies by pushing them into the sea. Those that survived the fall would be quickly dispatched by soldiers with spears waiting in boats below.</p><p>As you continue round the corner toward Marina Piccola, you’re greeted by the Faraglioni: three towering granite behemoths who have stood sentinel over the bay since time immemorial. According to the Odyssey, these rocks are home to the flesh-eating sirens and were created by the cyclops Polyphemus when he threw them in the sea, attempting to kill Odysseus during his daring escape.</p><p>Myths aside, Marina Piccola sings a different siren song these days. It calls to the ultra-wealthy, and it truly is a thing of dreams. Set against towering cliffs, the narrow beach features exclusive restaurants and bars, but most celebrity visitors bring their own entertainment in the form of superyachts. The water is warm, a cloudless green blue, and the quiet beaches are carpeted with soft white pebbles sanded smooth by time. From the beach, a narrow trail called Via Krupp used by Augustus and Tiberius to access their palaces climbs to the Gardens of Augustus a thousand feet above.</p><p>If the weather is good, your captain may take you further to the famous Blue Grotto, one of many fascinating sea caves that ring the island. Its shallow waters glow electric neon blue when the sun is high, turning the cave walls into an unforgettable, shimmering light show.</p>"
         }
+      }
     }
+  }
 }

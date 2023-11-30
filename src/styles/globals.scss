@@ -1,7 +1,6 @@
 @import "styles/settings/__settings";
 @import "style.css";
 
-
 // @font-face {
 //   font-family: "DidotB06";
 //   src: url("../../public/font/HTFDidot-B06Bold.otf") format("truetype");
@@ -220,7 +219,7 @@ button.btn.btn-black:hover {
   // background-position: top center;
 }
 
-.Submtb-50{
+.Submtb-50 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -396,48 +395,45 @@ ul.contactSocialIcons li {
 .xyz {
   color: green;
   background-color: yellow;
-  width:100%;
+  width: 100%;
 }
 @media (max-width: 767px) {
   h1 {
     font-size: 2rem !important;
   }
-  
+
   h2 {
     font-size: 1.75rem;
   }
-  
+
   h3 {
     font-size: 1.5em;
   }
-  
+
   h4 {
     font-size: 0.5em;
   }
   #subscribe .Bg-Image {
     background-position: 40% 0%;
-
   }
   #contact .Bg-Image {
     background-position: 40% 0%;
-
   }
-  .Bg-Image .FirstText{
+  .Bg-Image .FirstText {
     font-size: 16px;
     margin-bottom: 16px;
   }
-  .Bg-Image .SecondText{
+  .Bg-Image .SecondText {
     font-size: 22px;
     line-height: 36px !important;
     margin-bottom: 16px;
   }
-  .Bg-Image .ThirdText{
+  .Bg-Image .ThirdText {
     font-size: 24px;
     margin-bottom: 16px;
   }
-  .Bg-Image .FourthText{
+  .Bg-Image .FourthText {
     font-size: 22px;
     margin-bottom: 16px;
   }
- 
 }

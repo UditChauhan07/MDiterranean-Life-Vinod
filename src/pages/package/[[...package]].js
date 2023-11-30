@@ -7,9 +7,9 @@ import MastHead from 'components/MastHead';
 import PackegeCategories from 'components/package/categories';
 import CategoryList from 'components/CategoriesList';
 import PackageDetails from 'components/packageDetails';
-import ItinraryPages from 'components/ItineraryPages'
-import Credit from 'components/ItinaryCredit'
-import BookingDetail from 'components/BookingDetail/Booking'
+import ItinraryPages from 'components/ItineraryPages';
+import Credit from 'components/ItinaryCredit';
+import BookingDetail from 'components/BookingDetail/Booking';
 
 const Packege = () => {
   const router = useRouter();
@@ -31,44 +31,35 @@ const Packege = () => {
     return (
       <Layout>
         <section>
-          <MastHead source={pack.MastHead} v2/>
+          <MastHead source={pack.MastHead} v2 />
           {pack?.content && <PackageDetails data={pack.content} />}
         </section>
       </Layout>
     );
-  }else if (router.query.package.length == 4) {
-
+  } else if (router.query.package.length == 4) {
     return (
       <Layout>
-      <section>
-        <ItinraryPages/>
+        <section>
+          <ItinraryPages />
         </section>
-        </Layout>
-    );}
-
-    else if (router.query.package.length == 5) {
-
-      return (
-        <Layout>
+      </Layout>
+    );
+  } else if (router.query.package.length == 5) {
+    return (
+      <Layout>
         <section>
-          <Credit/>
-          </section>
-          </Layout>
-      );
-
-    }
-
-    else if (router.query.package.length == 6) {
-
-      return (
-        <Layout>
+          <Credit />
+        </section>
+      </Layout>
+    );
+  } else if (router.query.package.length == 6) {
+    return (
+      <Layout>
         <section>
-          <BookingDetail/>
-          </section>
-          </Layout>
-      );
-
-      
+          <BookingDetail />
+        </section>
+      </Layout>
+    );
   } else {
     const packs = PackageCategories[router.query.package[0]][router.query.package[1]];
     return (

@@ -1,172 +1,168 @@
 @font-face {
-    font-family: "NeueHaasUnica"  ;
-    font-display: swap;
-    src: url("../../../public/font/NeueHaasUnica-Regular.ttf");
-  }
+  font-family: "NeueHaasUnica";
+  font-display: swap;
+  src: url("../../../public/font/NeueHaasUnica-Regular.ttf");
+}
 
-
-  .ConfirmedBook{
-    font-family: "NeueHaasUnica"!important ;
-  }
+.ConfirmedBook {
+  font-family: "NeueHaasUnica" !important ;
+}
 
 .container {
-    width: 75%;
-    margin: auto;
-  }
-
-  .ConfirmedBook{
-    border-radius: 20px;
-background: #FFF;
-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-padding: 25px 34px;
-margin: 50px 0;
-  }
-
-  .ConfirmedBookIn{
-    display: flex;
-    border-bottom: 1px solid #D9D9D9;
-    justify-content: space-between;
-    margin: 0 0 25px 0;
-
-  }
-
-  .ConfirmedBookIn .BookIn h3{
-    color: #000;
-font-family:"NeueHaasUnica" !important;
-font-size: 30px;
-font-weight: 600;
-margin: 0px 0 8px 0;
-
-  }
-
-  .ConfirmedBookIn .BookIn p{
-    color: #000;
-    text-align: none;
-font-family:"NeueHaasUnica" !important;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-  }
-
-  .ConfirmedBookIn .BookIn h4{
-    color: #000;
-font-family: "NeueHaasUnica" !important;
-font-size: 25px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin: 0 0 6px 0;
-  }
-
-  .ConfirmedBookIn .BookIn p span{
-    color: #9D9D9D;
-font-family: "NeueHaasUnica" !important;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-  } 
-
-  .ConfirmedBookIn .BookOut button{
-    color: #000;
-text-align: center;
-font-family: "NeueHaasUnica" !important;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-width: 190px;
-height: 51px;
-border-radius: 10px;
-background-color: #fff;
-display: flex;
-    justify-content: center;
-    align-items: center;
-;
-  }
-  .BookOut .BookBtn{
-    display: flex;
-    justify-content: end;
-  }
-
-  .ConfirmedBookIn .BookOut p{
-    color: #9D9D9D;
-text-align: right;
-font-family: "NeueHaasUnica" !important;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin: 32px 0 0 0;
-  }
-
-  .CapriBoat{
-    display: flex;
-    border-bottom: 1px solid #D9D9D9;
-    padding:0 0 26px 0;
-     width: 100%;
-  }
-  .CapriContent{
-    width: 50%;
-  }
-  .CapriImg{
-    width: 50%;
-    display: flex;
-    justify-content: end;
-    padding: 0 0 0 30px;
-  }
-
-  .CapriBoat .CapriImg img{
-    border-radius: 12px;
+  width: 75%;
+  margin: auto;
 }
 
-.CapriContent h3{
-    color: #000;
-text-align: center;
-font-family: "NeueHaasUnica" !important;
-font-size: 25px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration-line: underline;
-margin: 0 0 34px 0;
-text-underline-offset: 6px;
-text-align: end;
+.ConfirmedBook {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 25px 34px;
+  margin: 50px 0;
 }
 
-.CapriContent h6{
-    color: #000;
-font-family:"NeueHaasUnica" !important;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin: 0 0 8px 0;
+.ConfirmedBookIn {
+  display: flex;
+  border-bottom: 1px solid #d9d9d9;
+  justify-content: space-between;
+  margin: 0 0 25px 0;
 }
 
-.CapriContent p{
-    color: #9D9D9D;
-    font-family: "NeueHaasUnica" !important;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.CapriBoat .CapriContent .BookEnd{
+.ConfirmedBookIn .BookIn h3 {
   color: #000;
-font-family:"NeueHaasUnica" !important;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration-line: underline;
-text-underline-offset: 6px;
-margin: 90px 0 26px 0;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px 0 8px 0;
 }
 
-.CapriControlImg{
+.ConfirmedBookIn .BookIn p {
+  color: #000;
+  text-align: none;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ConfirmedBookIn .BookIn h4 {
+  color: #000;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 6px 0;
+}
+
+.ConfirmedBookIn .BookIn p span {
+  color: #9d9d9d;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.ConfirmedBookIn .BookOut button {
+  color: #000;
+  text-align: center;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 190px;
+  height: 51px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BookOut .BookBtn {
+  display: flex;
+  justify-content: end;
+}
+
+.ConfirmedBookIn .BookOut p {
+  color: #9d9d9d;
+  text-align: right;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 32px 0 0 0;
+}
+
+.CapriBoat {
+  display: flex;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 0 0 26px 0;
+  width: 100%;
+}
+.CapriContent {
+  width: 50%;
+}
+.CapriImg {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  padding: 0 0 0 30px;
+}
+
+.CapriBoat .CapriImg img {
+  border-radius: 12px;
+}
+
+.CapriContent h3 {
+  color: #000;
+  text-align: center;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin: 0 0 34px 0;
+  text-underline-offset: 6px;
+  text-align: end;
+}
+
+.CapriContent h6 {
+  color: #000;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 8px 0;
+}
+
+.CapriContent p {
+  color: #9d9d9d;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.CapriBoat .CapriContent .BookEnd {
+  color: #000;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-underline-offset: 6px;
+  margin: 90px 0 26px 0;
+}
+
+.CapriControlImg {
   display: flex;
   width: 100%;
   justify-content: end;
@@ -183,90 +179,86 @@ margin: 90px 0 26px 0;
   grid-template-columns: repeat(4, auto);
 }
 
-
-.DetailLine .DetailInfo p{
-margin: 0 0 3px 0;
-color: #A3A3A3;
-text-align: start;
-font-family: "NeueHaasUnica" !important;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-
+.DetailLine .DetailInfo p {
+  margin: 0 0 3px 0;
+  color: #a3a3a3;
+  text-align: start;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.DetailLine .DetailInfo h6{
+.DetailLine .DetailInfo h6 {
   margin: 0 0 50px 0;
   color: #000;
-text-align: start;
-font-family:"NeueHaasUnica" !important;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  text-align: start;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
 
+// .DetailFlex{
+//   display: flex;
+// justify-content: space-between;
+// width: 50%;
+
+// }
+.BookIn {
+  padding: 0 20px 0 0;
+}
+
+@media (max-width: 1399.98px) {
+}
+@media (max-width: 1299.98px) {
+}
+@media (max-width: 1199.98px) {
+}
+@media (max-width: 1024.98px) {
+  .DetailLine .DetailInfo p {
+    font-size: 12px;
   }
 
-  // .DetailFlex{
-  //   display: flex;
-  // justify-content: space-between;
-  // width: 50%;
+  .DetailLine .DetailInfo h6 {
+    font-size: 14px;
+  }
 
-  // }
-  .BookIn {
-    padding: 0 20px 0 0;
-}
-
-  @media (max-width: 1399.98px) {}
-  @media (max-width: 1299.98px) {}
-  @media (max-width: 1199.98px) {}
-  @media (max-width: 1024.98px) {
- 
-    .DetailLine .DetailInfo p{
-      font-size: 12px;
-    }
-
-    .DetailLine .DetailInfo h6{
-      font-size: 14px;
-    
-    }
-
-    .ConfirmedBookIn .BookIn h3 {
-           font-size: 25px;
-      margin: 0px 0 8px 0;
+  .ConfirmedBookIn .BookIn h3 {
+    font-size: 25px;
+    margin: 0px 0 8px 0;
   }
 }
-  @media (max-width: 991.98px) {
+@media (max-width: 991.98px) {
+  .CapriContent h3 {
+    margin: 0 0 15px 0;
+  }
+  .CapriBoat .CapriContent .BookEnd {
+    margin: 10px 0 26px 0;
+  }
+  //     .CapriBoat {
+  //       display: block;
+  //      border-bottom: 1px solid #D9D9D9;
+  //      padding: 0 0 26px 0;
+  //      width: 100%;
+  //  }
+  .ConfirmedBookIn .BookIn h3 {
+    font-size: 20px;
+  }
 
-    .CapriContent h3{
-  margin: 0 0 15px 0;
-}
-    .CapriBoat .CapriContent .BookEnd {
-      
-      margin: 10px 0 26px 0;
-    }
-//     .CapriBoat {
-//       display: block;
-//      border-bottom: 1px solid #D9D9D9;
-//      padding: 0 0 26px 0;
-//      width: 100%;
-//  }
-    .ConfirmedBookIn .BookIn h3 {
-      font-size: 20px;}
+  .ConfirmedBookIn .BookIn p {
+    font-size: 12px;
+  }
 
-      .ConfirmedBookIn .BookIn p {
-        font-size: 12px;
-          }
-
-
-          .ConfirmedBookIn .BookIn h4 {
-            font-size: 20px;
-             font-weight: 500;
+  .ConfirmedBookIn .BookIn h4 {
+    font-size: 20px;
+    font-weight: 500;
   }
 
   .ConfirmedBookIn .BookOut p {
-    color: #9D9D9D;
+    color: #9d9d9d;
     text-align: right;
     font-family: "NeueHaasUnica" !important;
     font-size: 15px;
@@ -274,84 +266,77 @@ line-height: normal;
     font-weight: 500;
     line-height: normal;
     margin: 32px 0 0 0;
-}
-.CapriContent h3 {
+  }
+  .CapriContent h3 {
     font-size: 20px;
-     text-align: start;
-
+    text-align: start;
   }
   .CapriContent h6 {
     font-size: 20px;
     font-weight: 500;
   }
 }
-  @media (max-width: 767.98px) {
-    .DetaiFlex{
-      display: contents;
-    }
-    .container {
-      width: 90%;
-      margin: auto;
-    }
-    .ConfirmedBookIn .BookOut p {
-      color: #9D9D9D;
-      text-align: right;
-      font-family: "NeueHaasUnica" !important;
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      margin: 15px 0 20px 0;
-    }
-    .ConfirmedBookIn .BookOut button {
-   
-      font-size: 16px;
-   
-      font-weight: 500;
-         width: 80px;
-      height: 30px;
-      border-radius: 4px;
-   
+@media (max-width: 767.98px) {
+  .DetaiFlex {
+    display: contents;
   }
-    .DetailHistory 
-    {   
-     grid-template-columns: repeat(3, auto);
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .ConfirmedBookIn .BookOut p {
+    color: #9d9d9d;
+    text-align: right;
+    font-family: "NeueHaasUnica" !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 15px 0 20px 0;
+  }
+  .ConfirmedBookIn .BookOut button {
+    font-size: 16px;
+
+    font-weight: 500;
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+  }
+  .DetailHistory {
+    grid-template-columns: repeat(3, auto);
   }
 }
 
-@media(max-width:665.95px){
+@media (max-width: 665.95px) {
   .CapriContent h3 {
     font-size: 20px;
-    text-align: -webkit-center;}
-  .CapriBoat{
+    text-align: -webkit-center;
+  }
+  .CapriBoat {
     display: block;
   }
 
   .CapriContent {
     width: 100%;
-}
-.CapriImg {
-  width: 100%;
-  margin: 0 0 0 0;
-  padding: 0;
-}
-.CapriControlImg {
-
-  justify-content:center;
-}
-}
-  @media (max-width: 575.98px) {
-    .DetailHistory 
-    {   
-     grid-template-columns: repeat(2, auto);
   }
+  .CapriImg {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
   }
+  .CapriControlImg {
+    justify-content: center;
+  }
+}
+@media (max-width: 575.98px) {
+  .DetailHistory {
+    grid-template-columns: repeat(2, auto);
+  }
+}
 
-  @media (max-width: 475.98px) {
-    .DetailHistory 
-    {   
-     grid-template-columns: repeat(2, auto);
-   
+@media (max-width: 475.98px) {
+  .DetailHistory {
+    grid-template-columns: repeat(2, auto);
   }
   .ConfirmedBook {
     padding: 25px 10px;

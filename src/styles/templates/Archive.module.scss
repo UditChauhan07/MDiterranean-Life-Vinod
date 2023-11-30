@@ -31,16 +31,14 @@
     border: 1px solid #ccc;
     padding: 1rem;
 
-    
-
     &:last-child {
       margin-bottom: 0;
     }
-    
-    h3{
+
+    h3 {
       margin: auto;
-    min-height: 65px;
-    font-size: 1.2em;
+      min-height: 65px;
+      font-size: 1.2em;
     }
   }
 }
@@ -661,8 +659,6 @@ a.textCapital {
   margin: auto;
   padding-bottom: 2.5rem;
   padding-top: 1.25rem;
-
-  
 }
 .cardTrending {
   max-width: 400px;
@@ -677,66 +673,55 @@ a.textCapital {
 }
 
 @media (max-width: 767px) {
-.MasterHead {
-  background-size: contain;
-  min-height: 200px;
-}
-.MasterTitle{
-  padding: 1rem;
-}
-
+  .MasterHead {
+    background-size: contain;
+    min-height: 200px;
+  }
+  .MasterTitle {
+    padding: 1rem;
+  }
 }
 @media (max-width: 512px) {
-  
-  .MasterTitle{
+  .MasterTitle {
     padding: 0.5rem;
-    margin-bottom:3.5rem;
+    margin-bottom: 3.5rem;
     font-size: 1.8rem !important;
   }
-  .boxBlackTop{
+  .boxBlackTop {
     min-height: 80px;
   }
-  
+}
+
+@media (max-width: 450px) {
+  .MasterHead {
+    min-height: 180px;
+  }
+  .MasterTitle {
+    margin-bottom: 3.5rem;
+    font-size: 1.6rem !important;
+  }
+  .boxBlackTop {
+    min-height: 75px;
+  }
+}
+
+@media (max-width: 380px) {
+  .MasterHead {
+    min-height: 140px;
+  }
+  .MasterTitle {
+    margin-bottom: 2.5rem;
+    font-size: 1.4rem !important;
+  }
+}
+
+@media (max-width: 332px) {
+  .MasterHead {
+    min-height: 130px;
   }
 
-  @media (max-width: 450px) {
-  
-    .MasterHead {
-      min-height: 180px;
-    }
-    .MasterTitle{
-      
-      margin-bottom:3.5rem;
-      font-size: 1.6rem !important;
-    }
-    .boxBlackTop{
-      min-height: 75px;
-    }
-    }
-
-    @media (max-width: 380px) {
-  
-      .MasterHead {
-        min-height: 140px;
-      }
-      .MasterTitle{
-        
-        margin-bottom:2.5rem;
-        font-size: 1.4rem !important;
-      }
-      
-      }
-
-      @media (max-width: 332px) {
-        .MasterHead {
-          min-height: 130px;
-        }
-        
-        .MasterTitle{
-          
-          margin-bottom:3rem;
-          font-size: 1.2rem !important;
-        }
-        
-        
-        }
+  .MasterTitle {
+    margin-bottom: 3rem;
+    font-size: 1.2rem !important;
+  }
+}

@@ -16,7 +16,7 @@
 
 .footerSpicl {
   padding-left: 20px;
- padding-right: 20px;
+  padding-right: 20px;
 }
 
 .footerMenuColumns {
@@ -53,8 +53,8 @@
   }
 
   color: #fff;
-    text-decoration: none;
-    padding: 0.6rem 0;
+  text-decoration: none;
+  padding: 0.6rem 0;
 
   a {
     display: block;
@@ -85,23 +85,22 @@
     margin: 0;
   }
 }
-ul.footerCustomMenu{
+ul.footerCustomMenu {
   margin: 0;
   padding: 0;
 }
-ul.footerCustomMenu li{
+ul.footerCustomMenu li {
   list-style-type: none;
-   float: left;
-   
+  float: left;
 }
-ul.footerCustomMenu li a{
+ul.footerCustomMenu li a {
   color: #fff;
-    text-decoration: none;
-    font-family: "DidotL06";
-    font-size: 14px;
-    letter-spacing: 0.7px;
+  text-decoration: none;
+  font-family: "DidotL06";
+  font-size: 14px;
+  letter-spacing: 0.7px;
 }
-ul.footerCustomMenu li span{
+ul.footerCustomMenu li span {
   color: #fff;
   padding: 0 12px;
   font-size: 14px;
@@ -110,15 +109,15 @@ ul.contactSocialIcons {
   margin: 0;
   padding: 0;
   float: right;
-  }
-  ul.contactSocialIcons li{
-   list-style-type: none;
-   float: left;
-   padding-right: 12px;
-    }
-    ul.contactSocialIcons li:last-child{
-      padding-right: 0;
-    }
+}
+ul.contactSocialIcons li {
+  list-style-type: none;
+  float: left;
+  padding-right: 12px;
+}
+ul.contactSocialIcons li:last-child {
+  padding-right: 0;
+}
 .footerSpicl {
   background-color: #000000;
   color: #fff;
@@ -146,7 +145,7 @@ ul.contactSocialIcons {
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
   border-bottom: 1px solid #ccc;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 .LogoSection {
@@ -179,7 +178,6 @@ ul.contactSocialIcons {
   text-decoration: underline;
   padding: 0.6rem 0;
 }
-
 
 .Newsletter {
   padding: 0.6rem 0;
@@ -233,7 +231,7 @@ ul.contactSocialIcons {
 }
 // 24-05-2023 Add media Query
 @media (max-width: 767px) {
-  .LogoSection{
+  .LogoSection {
     display: block;
     width: 50%;
   }
