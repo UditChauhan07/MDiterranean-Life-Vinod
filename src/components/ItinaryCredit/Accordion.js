@@ -87,7 +87,7 @@ const Accordion = () => {
           <p className={styles.ConfirmMail}>Coming Soon</p>
         </div>
       )}
-      <p className={styles.ConfirmMail}>We'll send confirmation of your booking to Test@gmail.com</p>
+      <p className={styles.ConfirmMail}>We&apos;ll send confirmation of your booking to Test@gmail.com</p>
     </div>
   );
 };
