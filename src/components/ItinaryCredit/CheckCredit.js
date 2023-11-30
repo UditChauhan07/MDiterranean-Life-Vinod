@@ -16,14 +16,14 @@ function CheckCredit() {
             <div className={Styles.checkDate}>
               <div className={styles.CreditSmallImg}>
                 <div className={styles.imgSmall}>
-                  <img src="/package/TravelSmallImg.png" alt='TravelSmallImg' />
+                  <img src="/package/TravelSmallImg.png" alt="TravelSmallImg" />
                 </div>
                 <div className={styles.TravelContent}>
                   <h4>Travelling Capri By Boat</h4>
-                  <img src="/package/GoldenStar.svg" alt='GoldenStar' />
-                  <img src="/package/GoldenStar.svg" alt='GoldenStar'/>
-                  <img src="/package/GoldenStar.svg" alt='GoldenStar'/>
-                  <img src="/package/GoldenStar.svg" alt='GoldenStar'/>
+                  <img src="/package/GoldenStar.svg" alt="GoldenStar" />
+                  <img src="/package/GoldenStar.svg" alt="GoldenStar" />
+                  <img src="/package/GoldenStar.svg" alt="GoldenStar" />
+                  <img src="/package/GoldenStar.svg" alt="GoldenStar" />
                   <p>Tour Ste 324A Boca Raton, FL 33431</p>
                 </div>
               </div>
@@ -52,7 +52,7 @@ function CheckCredit() {
 
             <div className={Styles.MapTravel}>
               <div>
-                <img src="/package/MapTravel.png" alt='MapTravel' />
+                <img src="/package/MapTravel.png" alt="MapTravel" />
               </div>
               <h4>8.9 Excellent</h4>
               <span>Location rating score</span>

@@ -12,10 +12,10 @@ function ItineraryContent() {
             <div className={Styles.travel2}>
               <div className={Styles.travel2a}>
                 <h2>
-                  Travelling Capri By Boat &nbsp; <img src="/package/GoldenStar.svg" alt='GoldenStar' />
-                  <img src="/package/GoldenStar.svg" alt='GoldenStar' />
-                  <img src="/package/GoldenStar.svg" alt='GoldenStar' />
-                  <img src="/package/GoldenStar.svg" alt='GoldenStar' />
+                  Travelling Capri By Boat &nbsp; <img src="/package/GoldenStar.svg" alt="GoldenStar" />
+                  <img src="/package/GoldenStar.svg" alt="GoldenStar" />
+                  <img src="/package/GoldenStar.svg" alt="GoldenStar" />
+                  <img src="/package/GoldenStar.svg" alt="GoldenStar" />
                 </h2>
 
                 <p className={Styles.travelP1}>

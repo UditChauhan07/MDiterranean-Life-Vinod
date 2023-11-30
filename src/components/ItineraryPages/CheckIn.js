@@ -35,7 +35,7 @@ function CheckIn() {
 
             <div className={Styles.MapTravel}>
               <div>
-                <img src="/package/MapTravel.png" alt='MapTravel' />
+                <img src="/package/MapTravel.png" alt="MapTravel" />
               </div>
               <h4>8.9 Excellent</h4>
               <span>Location rating score</span>

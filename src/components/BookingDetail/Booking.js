@@ -62,7 +62,7 @@ function Booking() {
               </div>
               <div className={Styles.CapriImg}>
                 <div className={Styles.CapriControlImg}>
-                  <img src="/package/CapriBoat.png" alt='CapriBoat' />
+                  <img src="/package/CapriBoat.png" alt="CapriBoat" />
                 </div>
               </div>
             </div>
