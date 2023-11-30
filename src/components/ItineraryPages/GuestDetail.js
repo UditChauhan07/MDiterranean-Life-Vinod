@@ -1,4 +1,4 @@
-import react from 'react';
+// import react from 'react';
 import Styles from '../ItineraryPages/Style.module.scss';
 
 function GuestDetail() {

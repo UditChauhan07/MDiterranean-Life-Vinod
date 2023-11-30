@@ -61,7 +61,7 @@ const Accordion = () => {
             </div>
             <div className={styles.creditOut}>
               <div>
-                <img src="/package/CreditCard.png" />
+                <img src="/package/CreditCard.png" alt='CreditCard' />
               </div>
             </div>
           </div>
