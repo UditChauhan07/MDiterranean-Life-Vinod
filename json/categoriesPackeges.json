@@ -1,0 +1,72 @@
+{
+    "travel-experience":{
+        "beach-lovers":{
+            "MastHead": {
+                "title":"Beach Lovers",
+                "desk": {
+                    "src": "\\package\\beach-lover-master-head-desk.png",
+                    "alt": ""
+                },
+                "mob": {
+                    "src": "\\package\\travel-experience-masthead-mob.png",
+                    "alt": ""
+                }
+            },
+            "List":[
+                {
+                    "title":"Capri, Italy island Tour",
+                    "subTitle":"a capri by sea island tour",
+                    "banner":{
+                        "src": "\\package\\t-1.png",
+                        "alt":".."
+                    },
+                    "link":""
+                },
+                {
+                    "title":"TRAVELING CAPRI BY BOAT",
+                    "subTitle":"a capri by sea island tour",
+                    "banner":{
+                        "src": "\\package\\t-2.png",
+                        "alt":".."
+                    },
+                    "link":""
+                },{
+                    "title":"A Capri by Sea Island Tour",
+                    "subTitle":"a capri by sea island tour",
+                    "banner":{
+                        "src": "\\package\\t-3.png",
+                        "alt":".."
+                    },
+                    "link":""
+                },
+                {
+                    "title":"TRAVELING CAPRI BY BOAT",
+                    "subTitle":"a capri by sea island tour",
+                    "banner":{
+                        "src": "\\package\\t-4.png",
+                        "alt":".."
+                    },
+                    "link":""
+                },
+                {
+                    "title":"A Capri by Sea Island Tour",
+                    "subTitle":"a capri by sea island tour",
+                    "banner":{
+                        "src": "\\package\\t-5.png",
+                        "alt":".."
+                    },
+                    "link":""
+                },
+                {
+                    "title":"A Capri by Sea Island Tour",
+                    "subTitle":"a capri by sea island tour",
+                    "banner":{
+                        "src": "\\package\\t-6.png",
+                        "alt":".."
+                    },
+                    "link":"a-capri-by-sea-island-tour"
+                }
+            ]
+        }
+    }
+}

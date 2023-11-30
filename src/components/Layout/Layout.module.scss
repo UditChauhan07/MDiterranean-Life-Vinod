@@ -1,0 +1,12 @@
+.layoutContainer {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+// 22-05-2023 Add media Query
+@media (max-width: 600px){
+  .layoutContainer {
+    display: block;
+    
+  }
+}

@@ -1,0 +1,117 @@
+.mastHeadContainerAvail {
+  position: relative;
+  height: 650px;
+  .titleHolder {
+    font-family: "SaolDisplay" !important;
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5rem 5rem;
+    background-color: black;
+    color: #fff;
+    font-size: 40px;
+    line-height: 44px;
+    display: grid;
+    place-content: center;
+    @media (max-width: 769px) {
+      font-size: 30px;
+      line-height: 34px;
+    }
+    @media (max-width: 500px) {
+      padding: 1.5rem 2rem;
+      font-size: 25px;
+      line-height: 28px;
+    }
+  }
+  .availabilyContainer{
+    position: absolute;
+    transform: translate(-50%, 5%);
+    bottom: 5%;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 1000px;
+    height: 200px;
+    display: grid;
+    place-content: center;
+    .dateRangeContainer{
+      border-radius: 10px;
+      overflow: hidden;
+      border: none;
+      &>input{
+        width: 50%;
+        height: 100%;
+      }
+      .dateRangeHolder1{
+      }
+      .dateRangeHolder2{
+      }
+     background: rgba(255, 255, 255, 1);
+     width: 450px;
+     height: 60px;
+    }
+    .availabilyButton{
+      width: 300px;
+      height: 45px;
+      background: #000;
+      color: #fff;
+      display: grid;
+      place-content: center;
+      border-radius: 10px;
+      text-transform: uppercase;
+      font-family: "NeueHaasUnica", Arial, sans-serif;
+    }
+  }
+}
+.mastHeadContainer {
+  position: relative;
+  .titleHolder {
+    font-family: "SaolDisplay" !important;
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5rem 5rem;
+    background-color: black;
+    color: #fff;
+    font-size: 40px;
+    line-height: 44px;
+    display: grid;
+    place-content: center;
+    @media (max-width: 769px) {
+      font-size: 30px;
+      line-height: 34px;
+    }
+    @media (max-width: 500px) {
+      padding: 1.5rem 2rem;
+      font-size: 25px;
+      line-height: 28px;
+    }
+  }
+}
+.MastHeadMobImg {
+  width: 100%;
+  height: auto;
+  display: none;
+  @media (max-width: 1440px) {
+    object-fit: scale-down;
+  }
+  @media (max-width: 769px) {
+    display: block;
+  }
+}
+.MastHeadDeskImg {
+  width: 100%;
+  height: auto;
+  display: block;
+  @media (max-width: 1440px) {
+    object-fit: scale-down;
+  }
+  @media (max-width: 769px) {
+    display: none;
+  }
+}

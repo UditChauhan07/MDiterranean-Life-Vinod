@@ -1,0 +1,44 @@
+{
+    "travel-experience": {
+        "MastHead": {
+            "desk": {
+                "src": "\\package\\travel-experience-masthead.png",
+                "alt": ""
+            },
+            "mob": {
+                "src": "\\package\\travel-experience-masthead-mob.png",
+                "alt": ""
+            }
+        },
+        "categories": [
+            {
+                "title": "Art Lovers",
+                "banner": {
+                    "src": "\\package\\art-lover-banner.png",
+                    "alt": "..."
+                },
+                "theme": 1,
+                "align": "left"
+            },
+            {
+                "title": "jewelery lovers",
+                "banner": {
+                    "src": "\\package\\jewelry-lover-banner.png",
+                    "alt": "..."
+                },
+                "theme": 2,
+                "align": "right"
+            },
+            {
+                "title": "beach lovers",
+                "href": "beach-lovers",
+                "banner": {
+                    "src": "\\package\\beach-lover-banner.png",
+                    "alt": "..."
+                },
+                "theme": 3,
+                "align": "left"
+            }
+        ]
+    }
+}

@@ -1,0 +1,109 @@
+.container{
+    width: 90%;
+    margin: 2rem auto 3rem auto;
+    font-family: 'SaolDisplay';
+}
+.sectionTitle{
+    margin-bottom: 2rem;
+    line-height: 24px;
+}
+
+
+.dflex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    .imgHolder{
+        flex: 0 0 26%;
+        img{
+            /*width: 100%;
+            height: auto;*/
+            width: 377px;
+            height: 241px;
+        }
+    }
+    .textHolder{
+        flex: 0 0 70%;
+        margin: auto 0 auto 2rem;
+        
+    }
+    .descText p{
+        color: #797979;
+        font-family: "Charter", "Georgia", "Times", "Serif" !important;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: justify;
+        word-spacing: 1px;
+        margin-bottom:0.7rem;
+    }
+    @media screen and (max-width: 768px) {
+        .imgHolder{
+            flex: 0 0 100%;
+        }
+        .textHolder{
+            flex: 0 0 100%;
+            margin: 2rem 0;
+        }
+    }
+}
+.postTitle{
+    font-size: 1.50em;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: "SaolDisplay", Georgia, Times, serif !important;
+    cursor: pointer;
+    margin: 0.7rem 0;
+    &:hover{
+        color: #797979;
+    }
+}
+.postTitle a{
+    color: #000000;
+}
+.postTitle a:hover{
+    color: #797979;
+    text-decoration: none;
+}
+
+.authorLabel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #797979;
+    font-family: "NeueHaasUnicaM", Arial, sans-serif !important;
+    text-transform: capitalize;
+    margin:0;
+}
+.authorLabel a span, {
+    color: #797979;
+}
+.authorLabel a span:hover, .authorLabel a:hover, .btnHolderLink:hover{
+    color: #000000 !important;
+    text-decoration: none;
+}
+.btnHolder{
+    width: 275px;
+    height: 38px;
+    border-radius:5px;
+    text-align: center;
+    background-color: #000000;
+    font-size: 16px;
+    font-family: "NeueHaasUnica";
+    display: grid;
+    place-content: center;
+    a{
+        color: #ffffff;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    &:hover{
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        cursor: pointer;
+        a{
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}

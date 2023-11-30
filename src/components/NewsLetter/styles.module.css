@@ -1,0 +1,118 @@
+.newsletterSection {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.xyz {
+  background-color: red;
+}
+
+.styles_grid {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+}
+
+.imageContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.desktop_banner {
+  display: block;
+  object-fit: cover;
+}
+
+.mobile_banner {
+  display: none;
+  object-fit: cover;
+}
+
+.details {
+  background: #eeeeeed1;
+  display: grid;
+  /* grid-template-rows: auto 1fr; */
+  padding: 0 5rem;
+  min-height: 345px;
+  height: 100%;
+  align-content: center;
+  @media (max-width: 1024px) {
+    padding: 0 2rem;
+  }
+}
+
+.headingContainer {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1.1;
+  padding-bottom: 1rem;
+  color: var(--bmd-black);
+  font-family: "SaolDisplay", Georgia, Times, serif !important;
+  @media (max-width: 769px) {
+    font-size: 29px;
+  }
+}
+
+.formContainer {
+  height: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+iframe .hs-submit>.actions {
+  text-align: center !important;
+}
+
+/* @media (min-width: 768px) {
+  .headingContainer {
+    font-size: 40px;
+    font-weight: 400;
+  }
+} */
+
+@media (max-width: 500px) {
+  .headingContainer {
+    font-size: 40px !important;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .homeGalleryContainer p {
+    font-size: 28px;
+    max-width: 275px
+  }
+
+  .styles_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .desktop_banner {
+    display: none;
+  }
+
+  .mobile_banner {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .details {
+    background: #eeeeeed1;
+    bottom: 0 !important;
+    padding: 40px 15px;
+    position: absolute;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 420px) {
+  .headingContainer {
+    font-size: 24px !important;
+    line-height: 1.1 !important;
+    padding-bottom: 1rem !important;
+  }
+}

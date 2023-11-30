@@ -1,0 +1,330 @@
+.categoryBoxContainer {
+  height: auto;
+  display: flex;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+  .categoryTitleContainer {
+    min-width: 500px;
+    min-height: 500px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 55px;
+    @media (max-width: 1300px) {
+        max-width: 400px;
+        max-height: 400px;
+        min-width: unset;
+        min-height: unset;
+    }
+    @media (max-width: 1300px) {
+        max-width: 400px;
+        max-height: 400px;
+        min-width: 400px;
+        min-height: 400px;
+    }
+    @media (max-width: 768px) {
+        min-width: 250px;
+        min-height: 250px;
+    }
+    @media (max-width: 500px) {
+        max-width: 350px;
+        mmax-height: 350px;
+    }
+  }
+  .categoryTitleContainer1 {
+    min-width: 500px;
+    min-height: 500px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 55px;
+    position: relative;
+    overflow: hidden;
+    &::before {
+      content: "";
+      background-color: #fff;
+      width: 100%;
+      height: 3px;
+      transform: rotate(-45deg);
+      position: absolute;
+      left: -40%;
+      top: 30%;
+    }
+    &::after {
+      content: "";
+      background-color: #fff;
+      width: 100%;
+      height: 3px;
+      transform: rotate(-45deg);
+      position: absolute;
+      right: -40%;
+      bottom: 30%;
+    }
+    @media (max-width: 1300px) {
+        max-width: 400px;
+        max-height: 400px;
+        min-width: 400px;
+        min-height: 400px;
+    }
+    @media (max-width: 768px) {
+        min-width: 250px;
+        min-height: 250px;
+    }
+    @media (max-width: 500px) {
+        max-width: 350px;
+        mmax-height: 350px;
+    }
+  }
+  .categoryTitleContainer2 {
+    min-width: 500px;
+    min-height: 500px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    .layout2Border1 {
+      background-color: #fff;
+      width: 100%;
+      height: 3px;
+      content: "";
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 5%;
+    }
+    .layout2Border2 {
+      background-color: #fff;
+      width: 100%;
+      height: 3px;
+      content: "";
+      position: absolute;
+      transform: rotate(-90deg);
+      left: -45%;
+      top: 50%;
+    }
+    .layout2Border3 {
+      background-color: #fff;
+      width: 100%;
+      height: 3px;
+      content: "";
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: 5%;
+    }
+    .layout2Border4 {
+      background-color: #fff;
+      width: 100%;
+      height: 3px;
+      content: "";
+      position: absolute;
+      transform: rotate(-90deg);
+      right: -45%;
+      top: 50%;
+    }
+    @media (max-width: 1300px) {
+        max-width: 400px;
+        max-height: 400px;
+        min-width: unset;
+        min-height: unset;
+    }
+    @media (max-width: 768px) {
+        min-width: 250px;
+        min-height: 250px;
+    }
+    @media (max-width: 500px) {
+        max-width: 350px;
+        mmax-height: 350px;
+    }
+  }
+  .categoryTitleContainer3 {
+    min-width: 500px;
+    min-height: 500px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    .layout2Border1 {
+      content: "";
+      position: absolute;
+      right: 5%;
+      top: 5%;
+      content: "";
+      background-color: #fff;
+      width: 10%;
+      height: 3px;
+    }
+    .layout2Border2 {
+      background-color: #fff;
+      width: 10%;
+      height: 3px;
+      content: "";
+      position: absolute;
+      transform: rotate(-90deg);
+      right: 0%;
+      top: 10%;
+    }
+    .layout2Border3 {
+      background-color: #fff;
+      width: 10%;
+      height: 3px;
+      content: "";
+      position: absolute;
+      left: 5%;
+      bottom: 5%;
+    }
+    .layout2Border4 {
+      background-color: #fff;
+      width: 10%;
+      height: 3px;
+      content: "";
+      position: absolute;
+      transform: rotate(-90deg);
+      left: 0%;
+      bottom: 10%;
+    }
+    @media (max-width: 1300px) {
+        max-width: 400px;
+        max-height: 400px;
+        min-width: unset;
+        min-height: unset;
+    }
+    @media (max-width: 768px) {
+        min-width: 250px;
+        min-height: 250px;
+    }
+    @media (max-width: 500px) {
+        max-width: 350px;
+        mmax-height: 350px;
+    }
+  }
+  .categoryTitleContainer4 {
+    min-width: 500px;
+    min-height: 500px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    background-color: #000;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    .layout2Border1 {
+      content: "";
+      position: absolute;
+      left: 5%;
+      top: 5%;
+      content: "";
+      background-color: #fff;
+      width: 10%;
+      height: 3px;
+    }
+    .layout2Border2 {
+      background-color: #fff;
+      width: 10%;
+      height: 3px;
+      content: "";
+      position: absolute;
+      transform: rotate(-90deg);
+      left: 0%;
+      top: 10%;
+    }
+    .layout2Border3 {
+      background-color: #fff;
+      width: 10%;
+      height: 3px;
+      content: "";
+      position: absolute;
+      right: 5%;
+      bottom: 5%;
+    }
+    .layout2Border4 {
+      background-color: #fff;
+      width: 10%;
+      height: 3px;
+      content: "";
+      position: absolute;
+      transform: rotate(-90deg);
+      right: 0%;
+      bottom: 10%;
+    }
+    @media (max-width: 1300px) {
+        max-width: 400px;
+        max-height: 400px;
+        min-width: unset;
+        min-height: unset;
+    }
+    @media (max-width: 768px) {
+        min-width: 250px;
+        min-height: 250px;
+    }
+  }
+  .titleHolder {
+    font-family: "SaolDisplay", Georgia, Times, serif;
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    @media (max-width: 1024px) {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    @media (max-width: 768px) {
+        font-size: 22px;
+        line-height: 28px;
+    }
+  }
+  img {
+    margin: 20px;
+    min-width: 500px;
+    min-height: 500px;
+    width: 100%;
+    height: auto;
+    @media (max-width: 1300px) {
+        max-width: 400px;
+        max-height: 400px;
+        min-width: unset;
+        min-height: unset;
+    }
+    @media (max-width: 1024px) {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    @media (max-width: 768px) {
+        max-width: 250px;
+        max-height: 250px;
+    }
+    @media (max-width: 500px) {
+        min-width: 350px;
+        min-height: 350px;
+    }
+  }
+}

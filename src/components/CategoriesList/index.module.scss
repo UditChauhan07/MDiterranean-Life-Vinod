@@ -1,0 +1,91 @@
+.CategoryListContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 35%);
+  justify-content: center;
+  grid-gap: 1rem;
+  margin: 4rem auto;
+  @media (max-width: 1025px) {
+      grid-template-columns: repeat(auto-fill, 40%);
+  }
+  @media (max-width: 600px) {
+    grid-template-columns: unset;
+  }
+  .alignLeft {
+    margin-left: 0;
+  }
+  .alignRight {
+    margin-right: 0;
+  }
+  .cardContainer {
+    max-width: 90%;
+    padding: 1rem 0;
+    @media (max-width: 1025px) {
+        max-width: 95%;
+    }
+    @media (max-width: 600px) {
+       margin: auto;
+    }
+    .linkHolder {
+      text-decoration: none;
+      position: relative;
+      .imgHolder {
+        width: 100%;
+        height: auto;
+      }
+      .linkIconHolder {
+        background: #fff;
+        position: absolute;
+        bottom: -65%;
+        right: 5%;
+        width: 35px;
+        height: 35px;
+        display: grid;
+        place-content: center;
+        border-radius: 50%;
+      }
+      .titleHeadHolder {
+        padding: 0.5rem 2rem;
+        background-color: #000;
+        .subTitleContainer {
+          margin-top: 8px;
+          display: flex;
+          align-items: center;
+          .locationIconHolder {
+            width: auto;
+            height: 22px;
+            margin-right: 10px;
+          }
+          .subTitleHolder {
+            color: #fff;
+            font-size: 15px;
+            line-height: 28px;
+            font-family: "NeueHaasUnica", Arial, sans-serif;
+            @media (max-width: 769px) {
+                font-size: 12px;
+                line-height: 14px;
+            }
+          }
+        }
+        .titleHolder {
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 30px;
+          line-height: 36px;
+          font-family: "NeueHaasUnica", Arial, sans-serif;
+          @media (max-width: 1441px) {
+            font-size: 26px;
+            line-height: 28px;
+          }
+          @media (max-width: 1025px) {
+              font-size: 22px;
+              line-height: 24px;
+            }
+            @media (max-width: 769px) {
+                font-size: 16px;
+                line-height: 18px;
+            }
+        }
+      }
+    }
+  }
+}

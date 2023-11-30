@@ -1,0 +1,443 @@
+@import "styles/settings/__settings";
+@import "style.css";
+
+
+// @font-face {
+//   font-family: "DidotB06";
+//   src: url("../../public/font/HTFDidot-B06Bold.otf") format("truetype");
+//   font-weight: 400;
+//   font-display: swap;
+//   font-style: normal;
+// }
+// @font-face {
+//   font-family: "DidotM06";
+//   src: url("../../public/font/HTFDidot-M06Medium.otf") format("truetype");
+//   font-weight: 400;
+//   font-display: swap;
+//   font-style: normal;
+// }
+@font-face {
+  font-family: "DidotL06";
+  src: url("../../public/font/HTFDidot-L06Light.otf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Charter";
+  src: url("../../public/font/Charter.otf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NeueHaasUnica";
+  font-display: swap;
+  src: url("../../public/font/NeueHaasUnica-Regular.ttf");
+}
+@font-face {
+  font-family: "NeueHaasUnicaM";
+  font-display: swap;
+  src: url("../../public/font/NeueHaasUnica-Medium.ttf");
+}
+@font-face {
+  font-family: "SaolDisplay";
+  font-display: swap;
+  src: url("../../public/font/SaolDisplay-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  color: #000000;
+  letter-spacing: normal;
+  line-height: 28px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: normal;
+  font-family: "Charter";
+  line-height: 28px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  font-family: "SaolDisplay", Georgia, Times, serif !important;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "SaolDisplay", Georgia, Times, serif !important;
+}
+
+h1 {
+  font-size: 3rem !important;
+  letter-spacing: 1px;
+  text-transform: none !important;
+}
+
+h2 {
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 0.95em;
+  font-weight: 300;
+}
+
+li {
+  font-family: "DidotL06";
+  font-weight: normal;
+  line-height: 42px;
+}
+
+p {
+  font-family: "Charter", "Georgia", "Times", "Serif" !important;
+  font-size: 19px;
+  line-height: 1.6;
+  font-weight: initial;
+  letter-spacing: normal;
+  text-align: justify;
+  word-spacing: 1px;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+a {
+  color: $color-primary;
+}
+
+input {
+  &[type="text"],
+  &[type="search"],
+  &[type="email"] {
+    outline-offset: 0;
+    padding: 0.5em 0.8em;
+  }
+}
+
+figure img {
+  padding: 0;
+}
+
+figcaption {
+  color: #555;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.6em;
+}
+
+.sr-only {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  width: 0;
+  height: 0;
+}
+
+/* 02-11-2022 Add Css  */
+.card {
+  border: unset !important;
+}
+
+h1 {
+  color: #000;
+  text-transform: capitalize;
+}
+
+button.btn.btn-black {
+  background: #000;
+  color: #fff;
+  height: 3.125rem;
+  border-radius: 0 0.375rem 0.375rem 0;
+  text-transform: uppercase;
+}
+
+button.btn.btn-black:hover {
+  background-color: #e638c5;
+  border-color: #e638c5;
+  color: #fff;
+  height: 3.125rem;
+  border-radius: 0 0.375rem 0.375rem 0;
+  text-transform: uppercase;
+}
+
+.form-control {
+  height: 3.125rem;
+  border-radius: 0.375rem 0 0 0.375rem;
+}
+
+.col-xl-10.col-lg-10.col-md-10.col-sm-12.pr-0 {
+  padding-right: 0;
+}
+
+.col-xl-2.col-lg-2.col-md-2.col-sm-12.pl-0 {
+  padding-left: 0;
+}
+
+.Bg-Image {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  // box-shadow: inset 0 0 130px 100px rgba(0,0,0,.9);
+}
+
+.Bg-Image .container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#subscribe .Bg-Image {
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  // background-position: center;
+  background-position: 20% 80%;
+}
+
+#contact .Bg-Image {
+  // background-image: url("/B-IG-Feed-BMD-i4-Tuscany-FIO_0424+.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: 5% 20%;
+  // background-position: top center;
+}
+
+.Submtb-50{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.Bg-Image .login-form {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 36px 60px;
+  border-radius: 32px;
+  color: white;
+  border: 2px solid #fff;
+}
+
+.Bg-Image .login-heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Bg-Image .btn-primary {
+  width: 100%;
+}
+#policy h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 3rem 0 1rem 0 !important;
+  text-align: left;
+}
+#policy h1 {
+  text-align: left;
+  margin: 2rem 0 1rem;
+  font-size: 3.49999rem;
+  line-height: 1;
+  margin: auto;
+  text-transform: uppercase;
+  font-family: "DidotL06";
+}
+
+.Bg-Image .FirstText {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "DidotL06";
+  line-height: 30px !important;
+  letter-spacing: 0.03em;
+  margin-top: 0 !important;
+  text-align: left !important;
+}
+
+.Bg-Image .subscribeFormText {
+  width: 90%;
+}
+
+.Bg-Image .SecondText {
+  font-size: 42px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "DidotL06";
+  line-height: 46px !important;
+  letter-spacing: 0.03em;
+  text-align: left !important;
+}
+
+.Bg-Image .ThirdText {
+  font-size: 32px;
+  color: #fff;
+  font-family: "DidotL06";
+  line-height: 32px !important;
+  letter-spacing: 0.03em;
+  text-align: left !important;
+}
+
+.Bg-Image .ThirdTextDesc {
+  font-size: 22px;
+  color: #fff;
+  font-family: "DidotL06";
+  line-height: 26px !important;
+  letter-spacing: 0.03em;
+  text-align: left !important;
+}
+
+.Bg-Image .FourthText {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "DidotL06";
+  line-height: 26px !important;
+  letter-spacing: 0.03em;
+  margin-bottom: 0px !important;
+  text-align: left !important;
+}
+
+ul.contactSocialIcons {
+  margin: 0;
+  padding: 0;
+}
+ul.contactSocialIcons li {
+  list-style-type: none;
+  float: left;
+  padding-right: 12px;
+}
+.Bg-Image .FifthText {
+  margin: 0 auto !important;
+  line-height: 0;
+}
+
+.Bg-Image .FifthText a {
+  color: #fff;
+  font-size: 22px;
+  font-family: "DidotL06";
+  word-break: break-all;
+  text-decoration: underline;
+}
+
+.Bg-Image .login-form h2,
+#policy h1 {
+  font-family: "DidotL06";
+  color: #000;
+  font-size: 54px;
+  line-height: 65px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.Bg-Image .form-control {
+  background: #eeeeee;
+  border-radius: 31px;
+  border: unset;
+  font-size: 14px !important;
+  padding: 10px 20px;
+  height: auto;
+}
+
+.Bg-Image .btn-darkBlack {
+  background: #000;
+  color: #fff;
+  border-radius: 30px;
+  width: 40%;
+}
+
+.Bg-Image .form-control {
+  font-size: 1rem;
+  font-family: "DidotL06";
+}
+
+@media (max-width: 767.98px) {
+  .Bg-Image .subscribeFormText {
+    width: 100%;
+  }
+
+  .Bg-Image .login-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 15px;
+  }
+
+  .Bg-Image .login-form h2 {
+    font-size: 42px;
+  }
+
+  .form-control.mb-4 {
+    font-size: 16px !important;
+  }
+
+  .Bg-Image {
+    background-position: center;
+  }
+
+  .logoCenter img {
+    width: 100%;
+  }
+}
+.xyz {
+  color: green;
+  background-color: yellow;
+  width:100%;
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  h4 {
+    font-size: 0.5em;
+  }
+  #subscribe .Bg-Image {
+    background-position: 40% 0%;
+
+  }
+  #contact .Bg-Image {
+    background-position: 40% 0%;
+
+  }
+  .Bg-Image .FirstText{
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .Bg-Image .SecondText{
+    font-size: 22px;
+    line-height: 36px !important;
+    margin-bottom: 16px;
+  }
+  .Bg-Image .ThirdText{
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .Bg-Image .FourthText{
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+ 
+}

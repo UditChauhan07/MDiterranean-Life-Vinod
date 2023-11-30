@@ -1,0 +1,15 @@
+.packageDetailContainer{
+    max-width: 75%;
+    margin: auto;
+    .imgConatiner{
+        display: grid;
+        justify-content: center;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fill, 200px);
+        .imgHolder{
+            width: 200px;
+            height: 200px;
+            border-radius: 12px;
+        }
+    }
+}

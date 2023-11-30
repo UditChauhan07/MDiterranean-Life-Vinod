@@ -1,0 +1,10 @@
+.categoryContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,70%);
+    justify-content: center;
+    grid-gap: 1rem;
+    margin: 4rem auto;
+    @media (max-width: 500px) {
+        grid-template-columns: unset;
+    }
+}

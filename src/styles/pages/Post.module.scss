@@ -1,0 +1,83 @@
+@import "styles/settings/__settings";
+.title{
+  font-family: "SaolDisplay", Georgia, Times, serif !important;
+}
+.postMetadata {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.postFooter {
+  text-align: center;
+}
+
+.postModified {
+  color: $color-gray-500;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.relatedPosts {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 1.2em;
+    margin-bottom: 0.4em;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.content1 {
+  img {
+    border: none;
+  }
+
+  a {
+    color: unset;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  p .temp {
+    &::first-letter {
+      display: block;
+      float: left;
+      font-size: 3rem;
+      background: #111;
+      text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.5);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+    }
+  }
+}
+
+// .content {
+//   img {
+//     border: none;
+//   }
+//   p:first-child {
+//     p::first-letter {
+//       display: block;
+//       float: left;
+//       font-size: 3rem;
+//       background: #111;
+//       text-shadow: 0px 1px 3px rgba(255, 255, 255, 0.5);
+//       -webkit-background-clip: text;
+//       -moz-background-clip: text;
+//       background-clip: text;
+//     }
+//   }
+// }

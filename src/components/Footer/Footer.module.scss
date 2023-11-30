@@ -1,0 +1,240 @@
+@import "styles/settings/__settings";
+
+.footer {
+  width: 100%;
+  border-top: 1px solid $color-gray-100;
+}
+
+.footerMenu {
+  margin: 2rem 0;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+}
+
+.footerSpicl {
+  padding-left: 20px;
+ padding-right: 20px;
+}
+
+.footerMenuColumns {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 -2em;
+
+  @media (min-width: 480px) {
+    justify-content: center;
+  }
+
+  & > li {
+    max-width: 15em;
+    margin: 2em;
+  }
+}
+
+.footerMenuTitle {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 1.4em;
+  margin-top: 0;
+}
+
+.footerMenuItems {
+  li {
+    margin-bottom: 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  color: #fff;
+    text-decoration: none;
+    padding: 0.6rem 0;
+
+  a {
+    display: block;
+    overflow: hidden;
+    color: $color-gray-600;
+    text-decoration: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    @media (hover: hover) {
+      &:hover {
+        color: $color-primary;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.footerLegal {
+  color: $color-gray-400;
+  background-color: $color-gray-900;
+  padding: 0.8rem 0;
+  margin: 0;
+
+  p {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0;
+  }
+}
+ul.footerCustomMenu{
+  margin: 0;
+  padding: 0;
+}
+ul.footerCustomMenu li{
+  list-style-type: none;
+   float: left;
+   
+}
+ul.footerCustomMenu li a{
+  color: #fff;
+    text-decoration: none;
+    font-family: "DidotL06";
+    font-size: 14px;
+    letter-spacing: 0.7px;
+}
+ul.footerCustomMenu li span{
+  color: #fff;
+  padding: 0 12px;
+  font-size: 14px;
+}
+ul.contactSocialIcons {
+  margin: 0;
+  padding: 0;
+  float: right;
+  }
+  ul.contactSocialIcons li{
+   list-style-type: none;
+   float: left;
+   padding-right: 12px;
+    }
+    ul.contactSocialIcons li:last-child{
+      padding-right: 0;
+    }
+.footerSpicl {
+  background-color: #000000;
+  color: #fff;
+  font-family: NeueHaasUnica, Arial, sans-serif;
+  font-size: 0.70003rem;
+  letter-spacing: 0.08rem;
+  line-height: 1.4;
+  padding-bottom: 1.875rem;
+  padding-top: 1.875rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.middelSection {
+  margin: 0 auto;
+  max-width: 75rem;
+}
+
+.InRow {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+  border-bottom: 1px solid #ccc;
+  padding-bottom:10px;
+}
+
+.LogoSection {
+  display: block;
+  width: 25%;
+}
+
+.SocialIcon {
+  display: flex;
+}
+
+.paddingIcon {
+  padding: 0.8125rem 1rem;
+}
+
+.footerMenu {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  margin-bottom: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.footerMenu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.6rem 0;
+}
+.footerMenu a:hover {
+  color: #fff;
+  text-decoration: underline;
+  padding: 0.6rem 0;
+}
+
+
+.Newsletter {
+  padding: 0.6rem 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.DigitalTextFooter {
+  padding-top: 0.9375rem;
+  margin: 0.3125rem 0;
+}
+.footerLegalMenu {
+  padding-top: 0.9375rem;
+  line-height: 2;
+}
+.footerLegalMenu a {
+  color: #fff;
+  padding: 0.625rem 0.625rem 0.625rem 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  padding-right: 1.25rem;
+}
+.footerLegalMenu a:hover {
+  text-decoration: underline;
+}
+.footerButton {
+  border: thin solid white;
+  display: inline-block;
+  margin: 1.875rem 0.9375rem 1.25rem 0;
+  color: #fff;
+  font-family: NeueHaasUnica, Arial, sans-serif;
+  font-size: 0.70003rem;
+  letter-spacing: 0.08rem;
+  line-height: 1.4;
+  padding: 0.625rem;
+  text-transform: uppercase;
+}
+.footerButton a {
+  text-decoration: unset;
+}
+.footerButton a:hover {
+  background-color: #cdcdcd;
+  color: #000;
+}
+.footerButton:hover {
+  background-color: #cdcdcd;
+  color: #000;
+}
+.lastBtn {
+  color: #fff;
+}
+// 24-05-2023 Add media Query
+@media (max-width: 767px) {
+  .LogoSection{
+    display: block;
+    width: 50%;
+  }
+}

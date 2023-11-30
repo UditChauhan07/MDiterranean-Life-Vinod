@@ -1,0 +1,496 @@
+@import "styles/settings/__settings";
+
+.nav {
+  width: 100%;
+  border-bottom: 1px solid $color-gray-100;
+  padding: 0 1rem;
+}
+
+.h5 {
+  font-weight: bold;
+}
+
+.navSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+
+  @media (min-width: 480px) {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.navName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  flex-grow: 1;
+  margin: 0.8em 0 0;
+
+  @media (min-width: 480px) {
+    justify-content: flex-start;
+    margin-top: 0;
+  }
+
+  a {
+    color: $color-gray-500;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: solid 2px transparent;
+
+    @media (min-width: 480px) {
+      padding: 0.5em;
+      margin-left: -0.5em;
+    }
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+
+.navSearch {
+  flex-grow: 0;
+  margin-left: 1em;
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+
+    @media (min-width: 480px) {
+      justify-content: flex-end;
+      margin-right: -1rem;
+    }
+  }
+
+  input {
+    font-size: 0.845em;
+    width: 100%;
+  }
+  :focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+  button {
+    font-size: 1.2em;
+    background: none;
+    padding: 1.045em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &[disabled] {
+      svg {
+        fill: $color-gray-200;
+        transition: fill 0.5s;
+      }
+    }
+
+    svg {
+      fill: $color-gray-400;
+      transform: translateY(2px);
+    }
+
+    &:focus {
+      svg {
+        fill: $color-primary;
+      }
+    }
+  }
+}
+
+.navSearchResults {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100vw;
+  background-color: white;
+  padding: 1.5em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  border-top: solid 5px $color-primary;
+  margin-right: -1rem;
+  z-index: 999;
+  max-width: 300px;
+
+  @media (min-width: 480px) {
+    width: 18em;
+    margin-right: 0;
+  }
+
+  [data-search-is-active="true"] & {
+    display: block;
+  }
+
+  p {
+    line-height: 1.15;
+    margin: 0;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: -0.5em 0;
+  }
+
+  a {
+    display: block;
+    color: $color-gray-800;
+    text-decoration: none;
+    padding: 0.5em;
+    margin: 0 -0.5em;
+    &:focus {
+      outline: 2px solid $color-blue-500;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  flex-grow: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    position: relative;
+    z-index: 1;
+    margin: 0 0.25em;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      & > a {
+        color: $color-primary;
+      }
+
+      > .navSubMenu {
+        display: block;
+      }
+    }
+
+    & > .navSubMenu {
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      padding: 0.5em 0.8em;
+    }
+
+    .navSubMenu {
+      ul {
+        top: 0;
+        left: 100%;
+      }
+    }
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: $color-gray-600;
+    font-size: 1.1em;
+    padding: 0.5em;
+
+    @media (hover: hover) {
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+
+  .navSubMenu {
+    display: none;
+    position: absolute;
+    white-space: nowrap;
+    list-style: none;
+    background-color: #fff;
+    padding: 0;
+
+    li {
+      background-color: white;
+      margin: 0;
+
+      a {
+        font-size: 1rem;
+        padding: 0.3em;
+      }
+    }
+  }
+}
+
+.sidepanel {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  /*height: 250px;*/
+  // height: 100vh;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 2;
+  font-family: "NeueHaasUnica","Arial","sans-serif";
+}
+.closebtn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 2;
+  font-family: "NeueHaasUnica","Arial","sans-serif";
+  cursor: pointer;
+}
+
+.sidepanel a:hover {
+  color: #181818;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 15px 0;
+  border: none;
+  float: left;
+}
+
+.openbtn:hover {
+  color: #444;
+}
+.sidebarcontainer {
+  width: 75rem;
+  margin: auto;
+  @media (max-width: 1025px) {
+      width: 100%;
+      margin: auto;
+    }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  
+}
+
+.topnav a,.topnavright a {
+  width: max-content;
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 22px 16px 0;
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "NeueHaasUnica", "Arial", "sans-serif";
+  word-spacing: 2px;
+  span{
+    letter-spacing: 0.08em;
+    font-weight: 600
+  }
+}
+
+.listContainer span:nth-last-child(2) {
+  a{
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+}
+.subscribeBtn{
+  -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1.875rem;
+    width: auto;
+    margin: 0 0 0 auto;
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+    text-align: center;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    border: thin solid black;
+    span{
+      color: #ffffff;
+    }
+    &:hover{
+      background-color: #ffffff;
+      border: thin solid black;
+      span{
+        color: #000000;
+       border: none!important;
+      }
+    }
+    &:active{
+      background-color: #ffffff;
+      border: thin solid black;
+      span{
+        color: #000000;
+       border: none!important;
+      }
+    }
+}
+
+.topnav a:hover {
+  span{
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+  }
+}
+
+.topnav a.active {
+  border-bottom: 1px solid;
+}
+
+// 22-05-2023 Add New Csss
+.topnavright {
+  float: right;
+  margin: 10px auto;
+  
+}
+.topnavright a{
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 0px 20px;
+}
+
+.sidepanel .navSearch button svg {
+  fill: #000000 !important;
+  transform: translateY(2px);
+}
+.sidepanel  .navSearch button {
+  font-size: 18px;
+ 
+  padding: 0px 12px;
+  
+} 
+
+.sidepanel hr {
+  box-sizing: content-box;
+  overflow: visible;
+  background: transparent;
+  margin: 0.5rem 1rem 0.125rem;
+  padding: 0rem;
+  opacity: 100%;
+  height: 1px;
+  border: 0;
+  width: auto;
+  background-color: #000000;
+  color: #fff;
+}
+.sidepanel  span.sr-only {
+  display: block !important;
+  overflow: initial !important;
+  position: absolute !important;
+  top: 64px !important; 
+  left: 59px !important;
+  width: 0px !important;
+  height: 0 !important;
+  color: #000 !important;
+}
+
+@media (max-width: 767px) {
+  .navSection{
+    display: block;
+  }
+ .topnavright {
+    
+    position: absolute;
+    right: 12px;
+    top: 8px;
+}
+.navName {
+ 
+  justify-content: flex-start;
+  
+}
+.openbtn {
+  
+  padding: 0.5rem 0.625rem 0.5rem 0.625rem;
+ 
+}
+.topnavright a {
+  
+  padding: 0px 12px;
+}
+.topnav {
+  overflow: scroll;
+  background-color: #fff;
+  width: 100%;
+  
+}
+.MobileScroll{
+  width: 530px;
+    display: flex;
+}
+
+.nav {
+  width: 100%;
+  border-bottom: 0px solid #cfd7de;
+  
+}
+
+}
+@media (max-width: 350px){
+  .topnavright a {
+    padding: 0px 4px;
+  }
+  .nav {
+    padding:0;
+ }
+}
+
