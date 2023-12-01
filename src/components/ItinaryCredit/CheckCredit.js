@@ -52,7 +52,7 @@ function CheckCredit() {
 
             <div className={Styles.MapTravel}>
               <div>
-                <img src="/package/MapTravel.png" alt="MapTravel" />
+                <img src="/package/mapTravel.png" alt="mapTravel" />
               </div>
               <h4>8.9 Excellent</h4>
               <span>Location rating score</span>

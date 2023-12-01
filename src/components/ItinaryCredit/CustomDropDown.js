@@ -4,7 +4,7 @@ import styles from './style.module.scss';
 
 const CustomDropdown = () => {
   const [selectedOption, setSelectedOption] = useState({
-    img: '/package/PostCard.png',
+    img: '/package/postCard.png',
     label: 'Visa / MasterCard / Amex / JCB',
   });
   const [showOption, setShowOption] = useState(false);
@@ -23,19 +23,19 @@ const CustomDropdown = () => {
 
   const Options = [
     {
-      img: '/package/PostCard.png',
+      img: '/package/postCard.png',
       label: ' Visa / MasterCard / Amex / JCB',
     },
     {
-      img: '/package/PostCard.png',
+      img: '/package/postCard.png',
       label: 'Visa / MasterCard / Amex / JCB 1',
     },
     {
-      img: '/package/PostCard.png',
+      img: '/package/postCard.png',
       label: ' Visa / MasterCard / Amex / JCB 2',
     },
     {
-      img: '/package/PostCard.png',
+      img: '/package/postCard.png',
       label: '  Visa / MasterCard / Amex / JCB 3',
     },
   ];
