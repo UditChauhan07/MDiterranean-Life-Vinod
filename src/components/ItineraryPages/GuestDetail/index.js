@@ -1,4 +1,3 @@
-// import react from 'react';
 import Styles from './Style.module.scss';
 
 function GuestDetail() {
@@ -17,7 +16,7 @@ function GuestDetail() {
 
               <div className={Styles.GuestForm}>
                 <label>
-                  Email Address<span>(Voucher sent to this email)</span>
+                  Email Address<span>(Voucher sent to this email.)</span>
                 </label>
                 <br />
                 <input type="name"></input>

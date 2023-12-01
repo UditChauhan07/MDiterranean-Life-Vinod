@@ -1,11 +1,8 @@
-// components/Accordion.js
 import React, { useState } from 'react';
 import CustomDropdown from './CustomDropDown';
 import styles from './Style.module.scss';
-// import Styles from '../style.module.scss';
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-
   const onTitleClick = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
   };
@@ -14,8 +11,7 @@ const Accordion = () => {
     <div className={styles.accordion}>
       <div
         className={`${styles.title} ${styles.borderRad} ${activeIndex === 0 ? styles.active : ''}`}
-        onClick={() => onTitleClick(0)}
-      >
+        onClick={() => onTitleClick(0)}>
         <input type="radio" checked={activeIndex === 0} readOnly />
         Credit / Debit Card {activeIndex === 0}
       </div>

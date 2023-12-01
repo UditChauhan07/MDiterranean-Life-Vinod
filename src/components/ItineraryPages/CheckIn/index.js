@@ -16,7 +16,6 @@ function CheckIn() {
               <h6>Sat, 08 Jul 2023</h6>
               <span>12:00 PM</span>
             </div>
-
             <div className={Styles.checkDate}>
               <span>Guest</span>
               <h6>2 Guest | 1 Room</h6>
@@ -39,11 +38,9 @@ function CheckIn() {
               <span>Location rating score</span>
               <div className={Styles.ParkingFree}>
                 <div>
-                  {' '}
                   <span>Parking</span>
                 </div>
                 <div>
-                  {' '}
                   <h4>FREE</h4>
                 </div>
               </div>

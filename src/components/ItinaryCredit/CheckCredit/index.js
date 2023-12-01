@@ -13,7 +13,7 @@ function CheckCredit() {
             <div className={Styles.checkDate}>
               <div className={Styles.CreditSmallImg}>
                 <div className={Styles.imgSmall}>
-                  <img src="/package/TravelSmallImg.png" alt="TravelSmallImg" />
+                  <img src="/package/TravelSmallImg.png" alt="TravelSmallImg"/>
                 </div>
                 <div className={Styles.TravelContent}>
                   <h4>Travelling Capri By Boat</h4>
@@ -46,22 +46,18 @@ function CheckCredit() {
               <span className={Styles.ExecllentMargin}>Brekfast</span>
               <span>Housekeeping</span>
             </div>
-
             <div className={Styles.MapTravel}>
               <div>
                 <img src="/package/mapTravel.png" alt="mapTravel" />
               </div>
               <h4>8.9 Excellent</h4>
               <span>Location rating score</span>
-
               <div className={Styles.ParkingFree}>
                 <div>
-                  {' '}
-                  <span>Parking</span>
+                 <span>Parking</span>
                 </div>
                 <div>
-                  {' '}
-                  <h4>FREE</h4>
+                   <h4>FREE</h4>
                 </div>
               </div>
             </div>
