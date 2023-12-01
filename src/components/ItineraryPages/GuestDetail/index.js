@@ -1,5 +1,5 @@
 // import react from 'react';
-import Styles from './Style.module.scss'
+import Styles from './Style.module.scss';
 
 function GuestDetail() {
   return (

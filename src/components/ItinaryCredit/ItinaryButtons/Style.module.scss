@@ -1,115 +1,110 @@
 @font-face {
-    font-family: "NeueHaasUnica";
-    font-display: swap;
-    src: url("../../../../public/font/NeueHaasUnica-Regular.ttf");
-  }
-  
-  @font-face {
-    font-family: "NeueHaasUnicaM";
-    font-display: swap;
-    src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
-  }
-
-
-  .buttonItinery button{
-  
-    border-radius: 10px;
-    text-align: center;
-    font-family: "NeueHaasUnica" !important;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    height: 63px;
-    width: 100%;
+  font-family: "NeueHaasUnica";
+  font-display: swap;
+  src: url("../../../../public/font/NeueHaasUnica-Regular.ttf");
 }
 
+@font-face {
+  font-family: "NeueHaasUnicaM";
+  font-display: swap;
+  src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
+}
+
+.buttonItinery button {
+  border-radius: 10px;
+  text-align: center;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  height: 63px;
+  width: 100%;
+}
 
 .buttonItinery .buttonBlack {
-    margin: 0 50px 0px 0px;
-  
-    border: 2px solid #000;
-    background: #000;
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-    color: #fff;
-     font-style: normal;
-      }
-  
-  .buttonItinery .buttonWhite {
-    color: #000;
-     background: #fff;
-     margin: 0 0px 0px 20px;
-  }
-  
-  .buttonItinery {
-    display: flex;
-    width: 75%;
-    justify-content: space-between;
-    padding-right: 16px;
-    margin: 23px 0 47px 0;
-    text-align: start;
-  }
-  
-  .buttonBlackb {
-    width: 50%;
-    display: flex;
-  }
+  margin: 0 50px 0px 0px;
 
-
-
-  @media (max-width: 1199.98px) {
-    .buttonItinery .buttonBlack {
-      font-size: 16px;
-      height: 50px;
-    }
-  
-    .buttonItinery .buttonWhite {
-      font-size: 16px;
-      height: 50px;
-    }
-  }
-
-  @media (max-width: 991.98px) {
-    .buttonItinery {
-      width: 100%;
-      padding-right: 0px;
-    }
+  border: 2px solid #000;
+  background: #000;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-style: normal;
 }
 
-  @media (max-width: 767.98px) {
-    .buttonItinery .buttonBlack {
-        font-size: 14px;
-        height: 50px;
-      }
-    
-      .buttonItinery .buttonWhite {
-        font-size: 14px;
-        height: 50px;
-      }
-  
-    .buttonItinery .buttonWhite {
-      margin: 0 0px 0px 0px;
-    }
-  
-    .buttonItinery {
-      display: block;
-    }
-  
-    .buttonBlackb {
-      width: 100%;
-      margin: 20px 0 0 0;
-    }
-  
-    .buttonItinery .buttonBlack {
-      margin: 0 0px 0px 0px;
-    }
-  
-    .buttonItinery .buttonBlack {
-      font-size: 12px;
-    }
-  
-    .buttonItinery .buttonWhite {
-      font-size: 12px;
-    }
+.buttonItinery .buttonWhite {
+  color: #000;
+  background: #fff;
+  margin: 0 0px 0px 20px;
+}
+
+.buttonItinery {
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  padding-right: 16px;
+  margin: 23px 0 47px 0;
+  text-align: start;
+}
+
+.buttonBlackb {
+  width: 50%;
+  display: flex;
+}
+
+@media (max-width: 1199.98px) {
+  .buttonItinery .buttonBlack {
+    font-size: 16px;
+    height: 50px;
+  }
+
+  .buttonItinery .buttonWhite {
+    font-size: 16px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .buttonItinery {
+    width: 100%;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .buttonItinery .buttonBlack {
+    font-size: 14px;
+    height: 50px;
+  }
+
+  .buttonItinery .buttonWhite {
+    font-size: 14px;
+    height: 50px;
+  }
+
+  .buttonItinery .buttonWhite {
+    margin: 0 0px 0px 0px;
+  }
+
+  .buttonItinery {
+    display: block;
+  }
+
+  .buttonBlackb {
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+
+  .buttonItinery .buttonBlack {
+    margin: 0 0px 0px 0px;
+  }
+
+  .buttonItinery .buttonBlack {
+    font-size: 12px;
+  }
+
+  .buttonItinery .buttonWhite {
+    font-size: 12px;
+  }
 }

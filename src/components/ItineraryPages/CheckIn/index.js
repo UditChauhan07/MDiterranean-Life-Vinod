@@ -1,7 +1,6 @@
 import React from 'react';
 import Styles from './Style.module.scss';
 
-
 function CheckIn() {
   return (
     <div className={Styles.travel3Main}>

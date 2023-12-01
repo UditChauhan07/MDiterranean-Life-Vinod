@@ -8,7 +8,6 @@
   font-family: "NeueHaasUnicaM";
   font-display: swap;
   src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
-  
 }
 
 .container {
@@ -16,359 +15,353 @@
   margin: auto;
 }
 .titleAccordion {
-    background-color: #f4f4f4;
-    padding: 10px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .titleAccordion.active {
-    background-color: #e0e0e0;
-  }
+  background-color: #f4f4f4;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .title {
-    background: #f3f4f4;
-    padding: 10px 0 10px 37px;
-    height: 73px;
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid #fff;
-    color: #000;
-    font-family: "NeueHaasUnica" !important;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  
-  .title input[type="radio"] {
-    padding: 0;
-    width: 25px;
-    height: 25px;
-    top: 30%;
-    border: 5px solid #000000;
-    margin-right: 16px;
-  }
-  
-  .title input[type="radio"]:checked {
-    width: 25px;
-    height: 25px;
-  
-    top: 30%;
-    border: 8px solid #003b5f;
-    background-image: transparent !important;
-  }
-  
-  .title.borderRad {
-    border-radius: 20px 20px 0px 0px;
-  }
-  
-  .title .content {
-    padding: 28px 28px 58px 28px;
-    font-size: 16px;
-    font-family: "NeueHaasUnica" !important;
-  }
-  
-  .title .content p {
-    font-size: 16px;
-    margin: 0 0 0 0 !important;
-    font-family: "NeueHaasUnica" !important;
-    padding: 0 0 0 20px;
-  }
-  .title input[type="radio"]:checked:after {
-    width: 25px;
-    height: 25px;
-    border-radius: 15px;
-    background-color: #ffff;
-    content: "";
-    display: inline-block;
-    visibility: visible;
-    border: 8px solid #000;
-    transition: 0.5s;
-  }
-  
-  .title input[type="radio"]:not(:checked):before {
-    width: 25px;
-    height: 25px;
-    border-radius: 15px;
-    background-color: #ffff;
-    content: "";
-    display: inline-block;
-    visibility: visible;
-    border: 4px solid #8c8c8c;
-    transition: 0.5s;
-  }
-  .content {
-    padding: 10px;
-  }
-  .ConfirmMail {
-    color: #000;
-    font-family: "NeueHaasUnica" !important;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding: 15px 0 15px 40px;
-    text-align: left;
-  }
+.titleAccordion.active {
+  background-color: #e0e0e0;
+}
 
-  
+.title {
+  background: #f3f4f4;
+  padding: 10px 0 10px 37px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  color: #000;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.title input[type="radio"] {
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  top: 30%;
+  border: 5px solid #000000;
+  margin-right: 16px;
+}
+
+.title input[type="radio"]:checked {
+  width: 25px;
+  height: 25px;
+
+  top: 30%;
+  border: 8px solid #003b5f;
+  background-image: transparent !important;
+}
+
+.title.borderRad {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.title .content {
+  padding: 28px 28px 58px 28px;
+  font-size: 16px;
+  font-family: "NeueHaasUnica" !important;
+}
+
+.title .content p {
+  font-size: 16px;
+  margin: 0 0 0 0 !important;
+  font-family: "NeueHaasUnica" !important;
+  padding: 0 0 0 20px;
+}
+.title input[type="radio"]:checked:after {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: #ffff;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 8px solid #000;
+  transition: 0.5s;
+}
+
+.title input[type="radio"]:not(:checked):before {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: #ffff;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 4px solid #8c8c8c;
+  transition: 0.5s;
+}
+.content {
+  padding: 10px;
+}
+.ConfirmMail {
+  color: #000;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px 0 15px 40px;
+  text-align: left;
+}
+
 .Dropo .dropDown {
-    position: relative;
+  position: relative;
+}
+
+.Dropo ul {
+  list-style: none;
+  padding-left: 0px;
+  position: absolute;
+  background-color: #ffffff;
+  padding: 0px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 106%;
+
+  border-radius: 5px;
+}
+
+.Dropo ul li {
+  border: 0.5px solid #e4e4e4;
+  padding: 0 0 0 10px;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.Dropo ul li:hover {
+  background-color: #f6f6f6;
+}
+
+.Dropo .dropDown {
+  background: #fff;
+  padding: 10px 14px;
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
+  display: flex;
+  align-items: center;
+}
+
+.Dropo {
+  padding: 20px 40px 0 40px;
+}
+.Dropo label {
+  margin: 0 0 0 0;
+  color: #222;
+  text-align: justify;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.HashRed {
+  color: #f03434;
+}
+.dropDown img {
+  margin: 0 10px 0 2px;
+}
+
+.arrowIcon {
+  position: absolute;
+  right: 30px;
+  font-size: 25px;
+  transform: rotate(316deg);
+}
+
+.arrowIcon {
+  display: inline-block;
+}
+
+.creditInput label {
+  color: #222;
+  text-align: justify;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  margin: 20px 0 0 0;
+}
+.creditControl {
+  padding: 0 0 40px 40px;
+}
+.creditControl {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.creditInput {
+  width: 50%;
+}
+
+.creditOut {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 47px 40px 0 0;
+  padding: 0px 0 0 27px;
+}
+
+.creditInput input {
+  border-radius: 5px;
+  border: 1px solid #e4e4e4;
+  background: #fff;
+  color: #222;
+  text-align: justify;
+  font-family: "NeueHaasUnica" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  height: 52px;
+  padding: 0 0 0 10px;
+  width: 100%;
+  outline: none;
+}
+
+.creditInput input::placeholder {
+  color: #000;
+}
+
+.travel1 {
+  width: 100%;
+  display: flex;
+  margin: 34px 0;
+  justify-content: space-between;
+}
+
+.travel2 {
+  width: 75%;
+  border-radius: 20px;
+  background: #fff;
+  margin-right: 20px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1024.98px) {
+  .travel2a {
+    margin: 0 0 30px 0;
   }
-  
-  .Dropo ul {
-    list-style: none;
-    padding-left: 0px;
-    position: absolute;
-    background-color: #ffffff;
-    padding: 0px;
+  .travel2 {
     width: 100%;
-    left: 0;
-    right: 0;
+  }
+
+  .travel1 {
+    display: block;
+  }
+
+  .container {
+    width: 90%;
     margin: auto;
-    top: 106%;
-  
-    border-radius: 5px;
   }
-  
-  .Dropo ul li {
-    border: 0.5px solid #e4e4e4;
-    padding: 0 0 0 10px;
-    border-radius: 5px;
-    height: 50px;
-  }
-  
-  .Dropo ul li:hover {
-    background-color: #f6f6f6;
-  }
-  
-  .Dropo .dropDown {
-    background: #fff;
-    padding: 10px 14px;
-    border-radius: 5px;
-    border: 1px solid #e4e4e4;
-    display: flex;
-    align-items: center;
-  }
+}
 
-  .Dropo {
-    padding: 20px 40px 0 40px;
+@media (max-width: 991.98px) {
+  .travel2a {
+    padding: 17px 17px 62px 17px;
   }
-  .Dropo label {
-    margin: 0 0 0 0;
-    color: #222;
-    text-align: justify;
-    font-family: "NeueHaasUnica" !important;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-  }
+}
 
-  .HashRed {
-    color: #f03434;
-  }
-  .dropDown img {
-    margin: 0 10px 0 2px;
-  }
-
-  .arrowIcon {
-    position: absolute;
-    right: 30px;
-    font-size: 25px;
-    transform: rotate(316deg);
-  }
-  
-  .arrowIcon {
-    display: inline-block;
-  }
-
-  .creditInput label {
-    color: #222;
-    text-align: justify;
-    font-family: "NeueHaasUnica" !important;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 150% */
-    margin: 20px 0 0 0;
-  }
-  .creditControl {
-    padding: 0 0 40px 40px;
-  }
-  .creditControl {
-    display: flex;
+@media (max-width: 767.98px) {
+  .creditOut {
     width: 100%;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    margin: 47px 0 0 0;
+    padding: 0px 0 0 0px;
   }
 
   .creditInput {
-    width: 50%;
+    width: 92%;
+    padding: 0 0 0 40px;
   }
-  
-  .creditOut {
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    margin: 47px 40px 0 0;
-    padding: 0px 0 0 27px;
+  .creditControl {
+    display: block;
   }
 
-
-  
-  
-  .creditInput input {
-    border-radius: 5px;
-    border: 1px solid #e4e4e4;
-    background: #fff;
-    color: #222;
-    text-align: justify;
-    font-family: "NeueHaasUnica" !important;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    /* 150% */
-    height: 52px;
-    padding: 0 0 0 10px;
-    width: 100%;
-    outline: none;
+  .creditControl {
+    padding: 0 0 28px 0px;
   }
-
-  .creditInput input::placeholder {
-    color: #000;
+  .title {
+    font-size: 20px;
   }
-
-
-  .travel1 {
-      width: 100%;
-      display: flex;
-      margin: 34px 0;
-      justify-content: space-between;
-    }
-
-    .travel2 {
-          width: 75%;
-          border-radius: 20px;
-          background: #fff;
-          margin-right: 20px;
-          box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-        }
-
-        
-    @media (max-width: 1024.98px) {
-        .travel2a {
-              margin: 0 0 30px 0;
-             }
-        .travel2 {
-               width: 100%;
-             }
-
-         .travel1 {
-           display: block;
-         }
-        
-        .container {
-            width: 90%;
-            margin: auto;
-          }
-        }
-
-          @media (max-width: 991.98px) {
-             .travel2a {
-               padding: 17px 17px 62px 17px;
-             }
-            }
-
-  @media (max-width: 767.98px) {
-    .creditOut {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin: 47px 0 0 0;
-        padding: 0px 0 0 0px;
-      }
-    
-      .creditInput {
-        width: 92%;
-        padding: 0 0 0 40px;
-      }
-    .creditControl {
-        display: block;
-      }
-    
-    .creditControl {
-        padding: 0 0 28px 0px;
-      }
-    .title {
-      font-size: 20px;
-    }
 }
 
 @media (max-width: 575.98px) {
-    .creditInput {
-        width: 96%;
-        padding: 0 0 0 15px;
-      }
-    
-      .creditInput input {
-        font-size: 13px;
-      }
-    
-      .creditControl {
-        padding: 0 0 40px 0px;
-      }
-      .creditInput label {
-        font-size: 13px;
-      }
-    .arrowIcon {
-        font-size: 20px;
-      }
-    
-    .dropDown img {
-        width: 35px;
-      }
-    .Dropo {
-        padding: 20px 15px 0 15px;
-      }
-    
-      .Dropo .dropDown {
-        padding: 10px 4px;
-      }
+  .creditInput {
+    width: 96%;
+    padding: 0 0 0 15px;
+  }
 
-    .Dropo label {
-      font-size: 13px;
-    }
+  .creditInput input {
+    font-size: 13px;
+  }
+
+  .creditControl {
+    padding: 0 0 40px 0px;
+  }
+  .creditInput label {
+    font-size: 13px;
+  }
+  .arrowIcon {
+    font-size: 20px;
+  }
+
+  .dropDown img {
+    width: 35px;
+  }
+  .Dropo {
+    padding: 20px 15px 0 15px;
+  }
+
+  .Dropo .dropDown {
+    padding: 10px 4px;
+  }
+
+  .Dropo label {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 445.98px) {
-    .creditInput label {
-        font-size: 12px;
-      }
-    
-      .creditInput input {
-        font-size: 12px;
-      }
-    .arrowIcon {
-        font-size: 17px;
-      }
-    
-      .arrowIcon {
-        position: absolute;
-        right: 10px;
-        top: unset;
-      }
-    .Dropo label {
-      font-size: 12px;
-    }
+  .creditInput label {
+    font-size: 12px;
+  }
+
+  .creditInput input {
+    font-size: 12px;
+  }
+  .arrowIcon {
+    font-size: 17px;
+  }
+
+  .arrowIcon {
+    position: absolute;
+    right: 10px;
+    top: unset;
+  }
+  .Dropo label {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 355.98px) {
-    .dropDown img {
-      margin: 0 2px 0 0px;
-    }
+  .dropDown img {
+    margin: 0 2px 0 0px;
   }
+}

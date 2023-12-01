@@ -1,7 +1,6 @@
 import React from 'react';
 import Styles from './Style.module.scss';
 
-
 function CheckCredit() {
   return (
     <div className={Styles.travel3Main}>
