@@ -1,6 +1,5 @@
 import React from 'react';
 import Styles from './Style.module.scss';
-
 function CheckCredit() {
   return (
     <div className={Styles.travel3Main}>
@@ -11,7 +10,6 @@ function CheckCredit() {
               <h6>07 Jul 2023 - 08 Jul 2023</h6>
               <span>1 Night</span>
             </div>
-
             <div className={Styles.checkDate}>
               <div className={Styles.CreditSmallImg}>
                 <div className={Styles.imgSmall}>

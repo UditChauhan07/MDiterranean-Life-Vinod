@@ -2,8 +2,7 @@
 import React, { useState } from 'react';
 import CustomDropdown from './CustomDropDown';
 import styles from './Style.module.scss';
-// import Styles from '../style.module.scss'
-
+// import Styles from '../style.module.scss';
 const Accordion = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 

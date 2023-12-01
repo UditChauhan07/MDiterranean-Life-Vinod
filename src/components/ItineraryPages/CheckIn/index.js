@@ -1,6 +1,5 @@
 import React from 'react';
 import Styles from './Style.module.scss';
-
 function CheckIn() {
   return (
     <div className={Styles.travel3Main}>
@@ -12,7 +11,6 @@ function CheckIn() {
               <h6>Fri, 07 Jul 2023</h6>
               <span>03:00 PM</span>
             </div>
-
             <div className={Styles.checkDate}>
               <span>Check Out</span>
               <h6>Sat, 08 Jul 2023</h6>
@@ -39,7 +37,6 @@ function CheckIn() {
               </div>
               <h4>8.9 Excellent</h4>
               <span>Location rating score</span>
-
               <div className={Styles.ParkingFree}>
                 <div>
                   {' '}
