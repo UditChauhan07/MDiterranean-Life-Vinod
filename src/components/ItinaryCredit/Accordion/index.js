@@ -11,7 +11,8 @@ const Accordion = () => {
     <div className={styles.accordion}>
       <div
         className={`${styles.title} ${styles.borderRad} ${activeIndex === 0 ? styles.active : ''}`}
-        onClick={() => onTitleClick(0)}>
+        onClick={() => onTitleClick(0)}
+      >
         <input type="radio" checked={activeIndex === 0} readOnly />
         Credit / Debit Card {activeIndex === 0}
       </div>
@@ -36,7 +37,6 @@ const Accordion = () => {
                 <br />
                 <input placeholder="Card number" required></input>
               </div>
-
               <div>
                 <div>
                   <label>
