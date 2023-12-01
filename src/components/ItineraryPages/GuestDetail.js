@@ -17,7 +17,7 @@ function GuestDetail() {
 
               <div className={Styles.GuestForm}>
                 <label>
-                  Email Address <span>(Your booking voucher will be sent to this email address)</span>
+                  Email Address <span>(Voucher sent to this email.)</span>
                 </label>
                 <br />
                 <input type="name"></input>
@@ -26,7 +26,7 @@ function GuestDetail() {
 
             <div className={Styles.GuestFill}>
               <div className={Styles.GuestForm}>
-                <label>Email Address </label>
+                <label>Last Name </label>
                 <br />
                 <input type="name"></input>
               </div>
