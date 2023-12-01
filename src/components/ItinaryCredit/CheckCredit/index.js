@@ -1,6 +1,6 @@
 import React from 'react';
-import Styles from '../ItineraryPages/Style.module.scss';
-import styles from '../ItinaryCredit/style.module.scss';
+import Styles from './Style.module.scss';
+
 
 function CheckCredit() {
   return (
@@ -14,11 +14,11 @@ function CheckCredit() {
             </div>
 
             <div className={Styles.checkDate}>
-              <div className={styles.CreditSmallImg}>
-                <div className={styles.imgSmall}>
+              <div className={Styles.CreditSmallImg}>
+                <div className={Styles.imgSmall}>
                   <img src="/package/TravelSmallImg.png" alt="TravelSmallImg" />
                 </div>
-                <div className={styles.TravelContent}>
+                <div className={Styles.TravelContent}>
                   <h4>Travelling Capri By Boat</h4>
                   <img src="/package/GoldenStar.svg" alt="GoldenStar" />
                   <img src="/package/GoldenStar.svg" alt="GoldenStar" />
@@ -30,16 +30,16 @@ function CheckCredit() {
             </div>
 
             <div className={Styles.checkDate}>
-              <div className={styles.TravelPrice}>
-                <div className={styles.TravelPricea}>
+              <div className={Styles.TravelPrice}>
+                <div className={Styles.TravelPricea}>
                   <p>Price</p>
                 </div>
-                <div className={styles.TravelPriceb}>
+                <div className={Styles.TravelPriceb}>
                   <p>$1150.49</p>
                 </div>
               </div>
-              <p className={styles.PriceBSpan}>Included in price: Taxes and fees</p>
-              <h5 className={styles.PriceBh5}>YOU SAVED $ 32.21 ON THIS BOOKING!</h5>
+              <p className={Styles.PriceBSpan}>Included in price: Taxes and fees</p>
+              <h5 className={Styles.PriceBh5}>YOU SAVED $ 32.21 ON THIS BOOKING!</h5>
             </div>
           </div>
           <div className={`${Styles.travel3a} ${Styles.TravHeight}`}>

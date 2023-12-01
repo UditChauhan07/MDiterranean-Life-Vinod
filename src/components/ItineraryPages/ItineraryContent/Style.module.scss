@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "NeueHaasUnica";
+  font-display: swap;
+  src: url("../../../../public/font/NeueHaasUnica-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NeueHaasUnicaM";
+  font-display: swap;
+  src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+   }
+   
+   .travel1 {
+    color: #222;
+  }
+
+  .travel1 {
+    width: 100%;
+    display: flex;
+    margin: 34px 0;
+    justify-content: space-between;
+  }
+
+  .travel2a img {
+    margin: 0 2px;
+  }
+
+  .travel2 {
+    width: 75%;
+    border-radius: 20px;
+    background: #fff;
+    margin-right: 20px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .travel2a h2 {
+    color: #000;
+    font-family: "NeueHaasUnicaM" !important;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0 8px 0;
+  }
+  
+  .travel2a .travelP1 {
+    color: #222;
+    font-family: "NeueHaasUnicaM" !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 8px 0;
+  }
+  
+  .travel2a .travelP2 {
+    border-top: 1px solid #d9d9d9;
+  }
+  
+  .travel2a .travelP2,
+  .routeAout p {
+    margin: 0;
+    color: #222;
+    font-family: "NeueHaasUnica" !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    text-align: unset;
+  }
+  .travel2a {
+    padding: 28px 28px 58px 28px;
+  }
+
+  .controllUL h3,
+.route1 h3 {
+  color: #222;
+  font-family: "NeueHaasUnicaM" !important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 120% */
+  margin: 20px 0 11px 0;
+}
+.controllUL .ul1 ul li {
+    color: #222;
+    font-family: "NeueHaasUnicaM" !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .controllUL {
+    display: flex;
+  }
+  
+  .controllUL .ul1:first-child {
+    margin: 0 30% 0 0;
+  }
+  
+  .controllUL:last-child {
+    text-align: center;
+  }
+
+  .route1 .RouteFlex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .route1 .routeAa {
+    margin: 35px 0 0 0;
+    display: flex;
+  }
+  
+  .routeAin h5 {
+    color: #fff;
+    text-align: center;
+    font-family: "NeueHaasUnicaM" !important;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+  }
+  .routeAin h5 {
+    height: 55px;
+    width: 55px;
+    margin: 0;
+    background-color: #000;
+    border: 4px solid #949494;
+    border-radius: 100px;
+    padding: 12px;
+    margin: 0 0px 31px 0;
+    line-height: 10px;
+  }
+  .routeAin .RoutSpan {
+    color: #fff;
+    font-family: "NeueHaasUnicaM" !important;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 14px;
+  }
+  
+  .routeAin .routeWidthControl {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .routeAin {
+    width: 150px;
+  }
+  .routeAin p::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 30px;
+    top: 38px;
+    border-right: 2px dashed #949494;
+    display: flex;
+  }
+  .routeAin p::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 30px;
+    top: -30px;
+    border-right: 2px dashed #949494;
+  }
+  .routeA {
+    width: 50%;
+  }
+  
+  .routeB {
+    width: 50%;
+    padding: 0 0 0 30px;
+  }
+  .routeAin p {
+    margin: 0;
+    color: #949494;
+    text-align: center;
+    font-family: "NeueHaasUnica" !important;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .routePAdding {
+    padding: 0 25px 0 0px;
+  }
+
+  @media (max-width: 1299.98px) {
+    .routeAin p::before {
+        top: 55px;
+      }
+    .route1 .routeAa {
+      margin: 35px 0 36px 0;
+      display: flex;
+    }
+}
+
+  @media (max-width: 1199.98px) {
+    .travel2a .travelP2,
+    .routeAout p {
+      font-size: 14px;
+    }
+}
+
+   @media (max-width: 1024.98px) {
+    .travel2 {
+        width: 100%;
+      }
+    
+      .travel2a {
+        margin: 0 0 30px 0;
+      }
+    .container{
+      width: 90%;
+    }
+   
+        .travel1 {
+          display: block;
+        }
+}
+
+@media (max-width: 991.98px) {
+    .route1 .RouteFlex {
+        display: block;
+      }
+    
+      .routeA:first-child {
+        border: none;
+      }
+    
+      .routeB {
+        width: 50%;
+        padding: 1px 0 0 0;
+      }
+    .travel2a {
+      padding: 17px 17px 62px 17px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .routeAout p {
+        margin: 10px 0 0 0;
+      }
+    
+      .routeAin {
+        width: 80px;
+      }
+    
+      .routeA {
+        width: 100%;
+      }
+    
+      .routeB {
+        width: 100%;
+      }
+}
+
+@media (max-width: 575.98px) {
+    .routeAout p {
+        margin: 10px 0 0 27px;
+      }
+    .controllUL h3 {
+      font-size: 18px;
+    }
+    
+    .controllUL {
+      display: block;
+    }
+}

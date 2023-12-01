@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from '../ItineraryPages/Style.module.scss';
+import Styles from './Style.module.scss';
 // import ItineraryContent from '../ItineraryPages/ItineraryContent'
 
 function ItineraryImages() {

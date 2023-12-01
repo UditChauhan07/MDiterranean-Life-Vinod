@@ -1,9 +1,9 @@
 import React from 'react';
-import Styles from '../ItineraryPages/Style.module.scss';
-import CheckCredit from '../ItinaryCredit/CheckCredit';
+import Styles from './Style.module.scss';
+import CheckCredit from '../CheckCredit';
 // import GuestDetail from '../ItineraryPages/GuestDetail';
-import Accordion from './Accordion';
-import ItinaryButtons from './ItinaryButtons';
+import Accordion from '.';
+import ItinaryButtons from '../ItinaryButtons';
 
 function AccordionForm() {
   const items = [

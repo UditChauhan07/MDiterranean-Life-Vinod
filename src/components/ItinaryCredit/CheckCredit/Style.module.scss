@@ -1,0 +1,282 @@
+
+@font-face {
+  font-family: "NeueHaasUnica";
+  font-display: swap;
+  src: url("../../../../public/font/NeueHaasUnica-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NeueHaasUnicaM";
+  font-display: swap;
+  src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
+}
+
+
+.travel3Main {
+       width: 25%;
+    }
+    .SideSpaceTravel {
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 28px;
+        margin: 0 0 0px 0;
+      }
+
+      .travel3 .SideSpaceTravel .checkDate {
+        border-bottom: 1px solid #d9d9d9;
+        margin: 0 0 6px 0;
+        padding: 0 0 6px 0;
+      }
+
+      .CreditSmallImg .imgSmall {
+        width: 25%;
+        margin: 0 10px 0 0;
+      }
+
+      .CreditSmallImg .TravelContent {
+        width: 60%;
+      }
+      
+      .TravelContent img {
+        height: 13px;
+        width: 13px;
+        margin: 0 1px;
+      }
+      
+      .TravelContent p {
+        color: #9d9d9d;
+        font-family: "NeueHaasUnica" !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 5px;
+        text-align: left;
+      }
+      
+      .TravelPrice {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 7px 0;
+      }
+      
+      .TravelPrice .TravelPricea p {
+        color: #000;
+        font-family: "NeueHaasUnicaM" !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+      }
+      
+      .TravelPrice .TravelPriceb p {
+        color: #000;
+        text-align: right;
+        font-family: "NeueHaasUnica" !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 0;
+      }
+      
+      .PriceBSpan {
+        color: #9d9d9d;
+        font-family: "NeueHaasUnica" !important;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 10px;
+      }
+      
+      .PriceBh5 {
+        color: #000;
+        font-family: "NeueHaasUnica" !important;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+      }
+
+      .travel3a h5 {
+        color: #000;
+        font-family: "NeueHaasUnicaM" !important;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0 0 0px 0;
+      }
+    
+      .travel3a {
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 28px;
+        margin: 0 0 0px 0;
+      }
+
+      .TravHeight {
+        margin: 30px 0 0 0;
+      }
+      
+      .TravHeight span {
+        color: #a3a3a3;
+        font-family: "NeueHaasUnica" !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .ExecllentTravel {
+        display: flex;
+        margin: 6px 0 0 0;
+      }
+    
+      .ExecllentTravel span {
+        border: 0.5px solid #9d9d9d;
+        background-color: #fff;
+        color: #11aa39;
+        text-align: center;
+        font-family: "NeueHaasUnicaM" !important;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 8px;
+        border-radius: 4px;
+      }
+      .ExecllentMargin {
+        margin: 0 14px 0 0;
+      }
+    
+      .MapTravel img {
+        margin: 23px 0 0px 0;
+        width: 100%;
+      }
+      
+      .MapTravel h4 {
+        color: #000;
+        font-family: "NeueHaasUnicaM" !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 5px 0 5px 0;
+      }
+      
+      .MapTravel span {
+        color: #9d9d9d;
+        font-family: "NeueHaasUnicaM" !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      
+      .MapTravel .ParkingFree {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 0 0 0;
+        border-bottom: 1px solid #d9d9d9;
+        border-top: 1px solid #d9d9d9;
+      }
+    
+      .ParkingFree h4 {
+        color: #11aa39;
+        text-align: right;
+        font-family: "NeueHaasUnicaM" !important;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .travel3 .SideSpaceTravel .checkDate h6 {
+        color: #000;
+        font-family: "NeueHaasUnicaM" !important;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0px 0 0px 0;
+      }
+      .travel3 .SideSpaceTravel .checkDate span {
+        color: #a3a3a3;
+        font-family: "NeueHaasUnica" !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    
+      .CreditSmallImg {
+        display: flex;
+      }
+      
+      .CreditSmallImg h4 {
+        color: #000;
+        font-family: "NeueHaasUnica" !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+          margin: 0;
+      }
+    
+
+
+@media (max-width: 1024.98px) {
+
+    .TravHeight {
+        margin: 0px 0 0 0;
+      }
+
+    .SideSpaceTravel,
+    .travel3a {
+      width: 48%;
+    } 
+        
+      .travel3Main {
+           width: 100%;
+         }
+    }
+
+    @media (max-width: 991.98px) {
+        .CreditSmallImg {
+          display: block;
+          margin: 10px 0 0 0;
+        }
+      
+        .CreditSmallImg h4 {
+          margin: 10px 0 0 0;
+        }
+    }
+
+        
+    @media (max-width: 575.98px) {
+            .travel3 {
+                display: block;
+              }
+            .travel3 {
+                display: block;
+              }
+              .SideSpaceTravel,
+              .travel3a {
+                width: 100%;
+              }
+            
+              .SideSpaceTravel,
+              .travel3a {
+                margin: 0 0 18px 0;
+              }
+          
+              
+          
+          }

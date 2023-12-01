@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "NeueHaasUnica";
+  font-display: swap;
+  src: url("../../../../public/font/NeueHaasUnica-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NeueHaasUnicaM";
+  font-display: swap;
+  src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
+}
+
+.GuestMainSection {
+    width: 75%;
+    padding-right: 16px;
+  }
+  
+  .GuestMainSection button {
+    color: #fff;
+    text-align: center;
+    font-family: "NeueHaasUnicaM" !important;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 21px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background: #000;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 20px 0 50px 0;
+  }
+
+  .GuestFromBorder {
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px;
+  }
+  
+  .GuestFromBorder h3 {
+    color: #000;
+    font-family: "NeueHaasUnicaM" !important;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0 0 23px 0;
+    margin: 0;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  
+  .GuestFromBorder .GuestForm label {
+    color: #000;
+    font-family: "NeueHaasUnicaM" !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 10px 0;
+  }
+  
+  .GuestFlex {
+    display: flex;
+  }
+  
+  .GuestFromBorder .GuestForm label span {
+    color: #000;
+    font-family: "NeueHaasUnicaM" !important;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .GuestFromBorder .GuestForm input {
+    border-radius: 4px;
+    background: #ededed;
+    width: 90%;
+    height: 37px;
+    border: none;
+    padding: 0 0 0 15px;
+    color: #949494;
+    font-size: 16px;
+  }
+  
+  .GuestFromBorder a {
+    color: #8d2929;
+    font-family: "NeueHaasUnicaM" !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+
+  .GuestFill {
+    width: 100%;
+  }
+  
+  .GuestFill .GuestForm {
+    margin: 22px 0 0 0;
+  }
+
+  
+  @media (max-width: 1024.98px) {
+      
+      .GuestMainSection {
+          padding-right: 0;
+        }
+        .GuestMainSection {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 991.98px) {
+        .GuestFlex {
+            display: block;
+            width: 100%;
+          }
+
+      .GuestMainSection {
+        width: 100%;
+      }
+  }
+
+  @media (max-width: 767.98px) {
+    .GuestFlex {
+        display: block;
+      }
+    .GuestFromBorder .GuestForm input {
+      width: 100%;
+    }
+}
+
+  @media (max-width: 575.98px) {
+    .GuestMainSection {
+      display: block;
+    }
+}
