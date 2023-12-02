@@ -1,70 +1,40 @@
-@font-face {
-  font-family: "NeueHaasUnica";
-  font-display: swap;
-  src: url("../../../../public/font/NeueHaasUnica-Regular.ttf");
-}
 
-@font-face {
-  font-family: "NeueHaasUnicaM";
-  font-display: swap;
-  src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
-}
 .container {
   width: 75%;
   margin: auto;
 }
-
 .MainBannerIti {
   display: flex;
   width: 100%;
 }
-
 .MainBannerImageConvert {
-  // display: flex;
   margin: auto;
   width: 100%;
 }
-
 .MainBannerItiControl {
   display: flex;
 }
-
 .MainBannerItiControl.bottom {
-  margin-bottom: 18px;
-}
-
+  margin-bottom: 18px;}
 .MainBannerItiImg.Side {
   margin: 0 18px;
   height: 200px;
   display: flex;
   overflow: hidden;
-  width: 50%;
-}
-
+  width: 50%;}
 .MainBannerItiImg {
   width: 50%;
-  // max-height: 158px;
-  display: flex;
-  overflow: hidden;
-}
-
+    display: flex;
+  overflow: hidden;}
 .MainBannerItiImg img {
-  width: 100%;
-}
-
+  width: 100%;}
 .MainBannerItiWIdth {
   width: 50%;
-  float: left;
-}
-
+  float: left;}
 .MainBannerImg img {
-  width: 100%;
-}
+  width: 100%;}
 .MainBannerImg img {
-  border-radius: 12px 0px 0px 12px;
-  // max-height: 337px;
-}
-
+  border-radius: 12px 0px 0px 12px;}
 .MainBannerImg {
   width: 50%;
   float: left;
@@ -87,7 +57,6 @@
     width: 90%;
   }
 }
-
 @media (max-width: 767.98px) {
   .MainBannerImg img {
     border-radius: 0px 0px 0px 0px;
@@ -96,24 +65,16 @@
     width: 100%;
     margin: 18px 0 0 0;
   }
-
   .MainBannerImg {
     width: 100%;
   }
-
   .MainBannerItiImg.Side {
     margin: 0 18px 0 0px;
     height: -webkit-fill-available;
   }
-
   .borderRaduis {
-    border-radius: 0px 0px 0px 0px;
-  }
-}
-
+    border-radius: 0px 0px 0px 0px;}}
 @media (max-width: 575.98px) {
   .MainBannerImg {
     height: 170px;
-    border-radius: 0;
-  }
-}
+    border-radius: 0;}}

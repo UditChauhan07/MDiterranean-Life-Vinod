@@ -18,7 +18,7 @@ function Booking() {
       styles.forEach((style) => {
         printDocument.write(style.outerHTML);
       });
-
+      
       printDocument.write('</head><body>');
       printDocument.write(printContent.innerHTML);
       printDocument.write('</body></html>');
@@ -46,7 +46,6 @@ function Booking() {
               </div>
               <div className={Styles.BookOut}>
                 <div className={Styles.BookBtn}>
-                  {' '}
                   <button onClick={handlePrint}>Print</button>
                 </div>
                 <p>Booking by Test on Wed, 26 Jul 2023</p>

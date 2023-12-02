@@ -10,6 +10,9 @@
   src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
 }
 
+.ConfirmMail, .title, .title .content p, .title .content, .Dropo label, .creditInput label, .creditInput input {
+  font-family: "NeueHaasUnica" !important;
+}
 .container {
   width: 75%;
   margin: auto;
@@ -22,7 +25,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
 .titleAccordion.active {
   background-color: #e0e0e0;
 }
@@ -35,29 +37,24 @@
   align-items: center;
   border-bottom: 1px solid #fff;
   color: #000;
-  font-family: "NeueHaasUnica" !important;
   font-size: 25px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
+}
+
+.title input[type="radio"], .title input[type="radio"]:checked{
+  width: 25px;
+  height: 25px;
+  top: 30%;
 }
 
 .title input[type="radio"] {
   padding: 0;
-  width: 25px;
-  height: 25px;
-  top: 30%;
   border: 5px solid #000000;
   margin-right: 16px;
 }
 
 .title input[type="radio"]:checked {
-  width: 25px;
-  height: 25px;
-
-  top: 30%;
   border: 8px solid #003b5f;
-  background-image: transparent !important;
 }
 
 .title.borderRad {
@@ -67,16 +64,15 @@
 .title .content {
   padding: 28px 28px 58px 28px;
   font-size: 16px;
-  font-family: "NeueHaasUnica" !important;
 }
 
 .title .content p {
   font-size: 16px;
   margin: 0 0 0 0 !important;
-  font-family: "NeueHaasUnica" !important;
   padding: 0 0 0 20px;
 }
-.title input[type="radio"]:checked:after {
+
+.title input[type="radio"]:checked:after, .title input[type="radio"]:not(:checked):before{
   width: 25px;
   height: 25px;
   border-radius: 15px;
@@ -84,18 +80,13 @@
   content: "";
   display: inline-block;
   visibility: visible;
+}
+
+.title input[type="radio"]:checked:after {
   border: 8px solid #000;
   transition: 0.5s;
 }
-
 .title input[type="radio"]:not(:checked):before {
-  width: 25px;
-  height: 25px;
-  border-radius: 15px;
-  background-color: #ffff;
-  content: "";
-  display: inline-block;
-  visibility: visible;
   border: 4px solid #8c8c8c;
   transition: 0.5s;
 }
@@ -104,11 +95,10 @@
 }
 .ConfirmMail {
   color: #000;
-  font-family: "NeueHaasUnica" !important;
   font-size: 14px;
-  font-style: normal;
+  
   font-weight: 400;
-  line-height: normal;
+  
   padding: 15px 0 15px 40px;
   text-align: left;
 }
@@ -159,9 +149,8 @@
   margin: 0 0 0 0;
   color: #222;
   text-align: justify;
-  font-family: "NeueHaasUnica" !important;
   font-size: 16px;
-  font-style: normal;
+  
   font-weight: 400;
   line-height: 24px;
 }
@@ -179,20 +168,15 @@
   font-size: 25px;
   transform: rotate(316deg);
 }
-
 .arrowIcon {
   display: inline-block;
 }
-
 .creditInput label {
   color: #222;
   text-align: justify;
-  font-family: "NeueHaasUnica" !important;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 150% */
   margin: 20px 0 0 0;
 }
 .creditControl {
@@ -203,7 +187,6 @@
   width: 100%;
   justify-content: space-between;
 }
-
 .creditInput {
   width: 50%;
 }
@@ -222,12 +205,9 @@
   background: #fff;
   color: #222;
   text-align: justify;
-  font-family: "NeueHaasUnica" !important;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 150% */
   height: 52px;
   padding: 0 0 0 10px;
   width: 100%;
@@ -237,7 +217,6 @@
 .creditInput input::placeholder {
   color: #000;
 }
-
 .travel1 {
   width: 100%;
   display: flex;
@@ -308,15 +287,11 @@
     padding: 0 0 0 15px;
   }
 
-  .creditInput input {
+  .creditInput input, .creditInput label  {
     font-size: 13px;
   }
-
   .creditControl {
     padding: 0 0 40px 0px;
-  }
-  .creditInput label {
-    font-size: 13px;
   }
   .arrowIcon {
     font-size: 20px;
@@ -339,13 +314,10 @@
 }
 
 @media (max-width: 445.98px) {
-  .creditInput label {
+  .creditInput label, .creditInput input, .Dropo label  {
     font-size: 12px;
   }
 
-  .creditInput input {
-    font-size: 12px;
-  }
   .arrowIcon {
     font-size: 17px;
   }
@@ -354,9 +326,6 @@
     position: absolute;
     right: 10px;
     top: unset;
-  }
-  .Dropo label {
-    font-size: 12px;
   }
 }
 

@@ -9,27 +9,25 @@
   font-display: swap;
   src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
 }
-
 .travel3Main {
   width: 25%;
 }
 
+.travel3 .SideSpaceTravel .checkDate span, .TravHeight span, .ExecllentTravel span, .MapTravel h4, .ParkingFree h4, .MapTravel span{
+  font-family: "NeueHaasUnica" !important;
+  font-weight: 400;
+}
+
 .travel3 .SideSpaceTravel .checkDate span {
   color: #a3a3a3;
-  font-family: "NeueHaasUnica" !important;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .travel3 .SideSpaceTravel .checkDate h6 {
   color: #000;
   font-family: "NeueHaasUnicaM" !important;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin: 0px 0 0px 0;
 }
 .travel3 .SideSpaceTravel .checkDate {
@@ -48,9 +46,7 @@
   color: #000;
   font-family: "NeueHaasUnicaM" !important;
   font-size: 25px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin: 0 0 0px 0;
 }
 
@@ -68,12 +64,8 @@
 
 .TravHeight span {
   color: #a3a3a3;
-  font-family: "NeueHaasUnica" !important;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
+   font-size: 16px;
+ }
 
 .ExecllentTravel {
   display: flex;
@@ -85,42 +77,26 @@
   background-color: #fff;
   color: #11aa39;
   text-align: center;
-  font-family: "NeueHaasUnicaM" !important;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   padding: 8px;
   border-radius: 4px;
 }
 .ExecllentMargin {
   margin: 0 14px 0 0;
 }
-
 .MapTravel img {
   margin: 23px 0 0px 0;
   width: 100%;
 }
-
 .MapTravel h4 {
   color: #000;
-  font-family: "NeueHaasUnicaM" !important;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+    font-size: 16px;
   margin: 5px 0 5px 0;
 }
-
 .MapTravel span {
   color: #9d9d9d;
-  font-family: "NeueHaasUnicaM" !important;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
-
 .MapTravel .ParkingFree {
   display: flex;
   justify-content: space-between;
@@ -129,27 +105,19 @@
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #d9d9d9;
 }
-
 .ParkingFree h4 {
   color: #11aa39;
   text-align: right;
-  font-family: "NeueHaasUnicaM" !important;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
-
 @media (max-width: 1199.98px) {
   .ExecllentTravel {
     display: block;
   }
-
   .ExecllentTravel span {
     margin: 0 4px 5px 0;
   }
 }
-
 @media (max-width: 1024.98px) {
   .TravHeight {
     margin: 0px 0 0 0;
@@ -158,18 +126,15 @@
   .travel3a {
     width: 48%;
   }
-
   .travel3Main {
     width: 100%;
   }
-
   .travel3 {
     justify-content: space-between;
     display: flex;
     width: 100%;
   }
 }
-
 @media (max-width: 575.98px) {
   .SideSpaceTravel,
   .travel3a {
@@ -178,7 +143,6 @@
   .travel3 {
     display: block;
   }
-
   .SideSpaceTravel,
   .travel3a {
     margin: 0 0 18px 0;
