@@ -17,7 +17,6 @@ function Booking() {
       styles.forEach((style) => {
         printDocument.write(style.outerHTML);
       });
-      
       printDocument.write('</head><body>');
       printDocument.write(printContent.innerHTML);
       printDocument.write('</body></html>');
@@ -37,7 +36,6 @@ function Booking() {
               <div className={Styles.BookIn}>
                 <h3>Great! Your Stay Is Confirmed</h3>
                 <p>You will soon receive an email confirmation on test@gmail.com</p>
-
                 <h4>Booking ID</h4>
                 <p>
                   <span>DBYB4488</span>
@@ -122,5 +120,4 @@ function Booking() {
     </div>
   );
 }
-
 export default Booking;
