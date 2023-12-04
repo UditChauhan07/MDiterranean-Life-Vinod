@@ -9,7 +9,7 @@ import CategoryList from 'components/CategoriesList';
 import PackageDetails from 'components/packageDetails';
 import ItinraryPages from 'components/ItineraryPages';
 import Credit from 'components/ItinaryCredit';
-import BookingDetail from 'components/BookingDetail/Booking';
+import BookingDetail from 'components/BookingDetail';
 
 const Packege = () => {
   const router = useRouter();

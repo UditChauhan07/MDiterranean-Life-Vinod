@@ -13,7 +13,6 @@ function Booking() {
       const printDocument = printWindow.document;
       printDocument.write('<html><head><title>Print</title>');
 
-      // Include your styles directly in the head
       const styles = document.querySelectorAll('style, link[rel="stylesheet"]');
       styles.forEach((style) => {
         printDocument.write(style.outerHTML);
