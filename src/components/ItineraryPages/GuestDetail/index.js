@@ -38,7 +38,7 @@ function GuestDetail() {
             </div>
           </div>
           <div className={Styles.ADDGuestA}>
-          <a href="#">Add Guest</a>
+            <a href="#">Add Guest</a>
           </div>
         </div>
         <button>Proceed To Payment Options</button>

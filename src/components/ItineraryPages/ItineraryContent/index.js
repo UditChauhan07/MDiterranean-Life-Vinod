@@ -54,7 +54,7 @@ function ItineraryContent() {
                     <div className={`${Styles.routeA} ${Styles.routePAdding}`}>
                       <div className={Styles.routeAa}>
                         <div className={Styles.routeAin}>
-                         <div className={Styles.routeWidthControl}>
+                          <div className={Styles.routeWidthControl}>
                             <h5>
                               Day <span className={Styles.RoutSpan}>01</span>
                             </h5>
