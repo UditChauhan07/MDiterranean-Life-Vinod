@@ -16,7 +16,7 @@ function CheckIn() {
               <h6>Sat, 08 Jul 2023</h6>
               <span>12:00 PM</span>
             </div>
-            <div className={Styles.checkDate}>
+            <div className={`${Styles.checkDate} ${Styles.BorderNoneCheckDate}`}>
               <span>Guest</span>
               <h6>2 Guest | 1 Room</h6>
               <span>1 Night</span>
@@ -26,7 +26,7 @@ function CheckIn() {
             <h5>8.6 Excellent</h5>
             <span>188 reviews</span>
             <div className={Styles.ExecllentTravel}>
-              <span className={Styles.ExecllentMargin}>Brekfast</span>
+              <span className={Styles.ExecllentMargin}>Breakfast</span>
               <span>Housekeeping</span>
             </div>
 

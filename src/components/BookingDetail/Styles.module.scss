@@ -87,7 +87,7 @@
 .CapriBoat {
   display: flex;
   border-bottom: 1px solid #d9d9d9;
-  padding: 0 0 26px 0;
+  padding: 0 0 0px 0;
   width: 100%;
 }
 .CapriContent {
@@ -106,14 +106,14 @@
 
 .CapriContent h3 {
   color: #000;
-  text-align: center;
+  text-align: end;
   font-size: 25px;
   font-weight: 600;
   text-decoration-line: underline;
   margin: 0 0 34px 0;
   text-underline-offset: 6px;
-  text-align: end;
 }
+
 
 .CapriContent h6 {
   color: #000;
@@ -144,6 +144,7 @@
   display: flex;
   width: 100%;
   justify-content: end;
+  padding: 0 0 25px 0;
 }
 .DetailHistory {
   display: grid;

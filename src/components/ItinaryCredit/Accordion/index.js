@@ -37,7 +37,8 @@ const Accordion = () => {
                 <br />
                 <input placeholder="Card number" required></input>
               </div>
-              <div>
+
+              <div className={styles.ExpiryDate} >
                 <div>
                   <label>
                     Expiry Date<span className={styles.HashRed}>*</span>
@@ -83,7 +84,7 @@ const Accordion = () => {
           <p className={styles.ConfirmMail}>Coming Soon</p>
         </div>
       )}
-      <p className={styles.ConfirmMail}>We&apos;ll send confirmation of your booking to Test@gmail.com</p>
+      <p className={styles.ConfirmMail}>We&apos;ll send confirmation of your booking to <b>Test@gmail.com</b></p>
     </div>
   );
 };

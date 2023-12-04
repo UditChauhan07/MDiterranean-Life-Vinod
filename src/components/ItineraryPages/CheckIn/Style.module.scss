@@ -10,7 +10,7 @@
   src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
 }
 .travel3Main {
-  width: 25%;
+  width: 23.5%;
 }
 
 .travel3 .SideSpaceTravel .checkDate span, .TravHeight span, .ExecllentTravel span, .MapTravel h4, .ParkingFree h4, .MapTravel span{
@@ -34,6 +34,10 @@
   border-bottom: 1px solid #d9d9d9;
   margin: 0 0 6px 0;
   padding: 0 0 6px 0;
+}
+
+.BorderNoneCheckDate{
+  border-bottom: none !important;
 }
 .SideSpaceTravel {
   border-radius: 20px;
@@ -78,7 +82,7 @@
   color: #11aa39;
   text-align: center;
   font-size: 12px;
-  padding: 8px;
+  padding: 2px 12px;;
   border-radius: 4px;
 }
 .ExecllentMargin {

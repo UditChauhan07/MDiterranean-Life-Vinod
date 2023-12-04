@@ -16,7 +16,7 @@ function GuestDetail() {
 
               <div className={Styles.GuestForm}>
                 <label>
-                  Email Address<span>(Voucher sent to this email.)</span>
+                  Email Address<span>(Your booking voucher will be sent to this email address)</span>
                 </label>
                 <br />
                 <input type="name"></input>
@@ -37,7 +37,9 @@ function GuestDetail() {
               </div>
             </div>
           </div>
+          <div className={Styles.ADDGuestA}>
           <a href="#">Add Guest</a>
+          </div>
         </div>
         <button>Proceed To Payment Options</button>
       </div>

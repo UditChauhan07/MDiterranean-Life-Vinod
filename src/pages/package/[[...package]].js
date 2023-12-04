@@ -10,6 +10,7 @@ import PackageDetails from 'components/packageDetails';
 import ItinraryPages from 'components/ItineraryPages';
 import Credit from 'components/ItinaryCredit';
 import BookingDetail from 'components/BookingDetail';
+import ShopPage from 'components/ShopPage'
 
 const Packege = () => {
   const router = useRouter();
@@ -60,7 +61,18 @@ const Packege = () => {
         </section>
       </Layout>
     );
-  } else {
+
+     } else if (router.query.package.length == 7) {
+      return (
+        <Layout>
+          <section>
+            <ShopPage />
+          </section>
+        </Layout>
+      );
+    }
+
+   else {
     const packs = PackageCategories[router.query.package[0]][router.query.package[1]];
     return (
       <Layout newsLetterShow={false}>

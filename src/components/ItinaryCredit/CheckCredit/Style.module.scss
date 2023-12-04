@@ -16,23 +16,24 @@
   font-weight: 400;
 }
 .travel3Main {
-  width: 25%;
+  width: 23.5%;
 }
 .SideSpaceTravel {
   border-radius: 20px;
   background: #fff;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-  padding: 28px;
+  padding: 16px 17px;
   margin: 0 0 0px 0;
 }
 .travel3 .SideSpaceTravel .checkDate {
   border-bottom: 1px solid #d9d9d9;
-  margin: 0 0 6px 0;
+  margin: 0 0 11px 0;
   padding: 0 0 6px 0;
 }
 .CreditSmallImg .imgSmall {
-  width: 25%;
-  margin: 0 10px 0 0;
+  width: 36%;
+  margin: 0 0px 0 0;
+  
 }
 .CreditSmallImg .TravelContent {
   width: 60%;
@@ -44,7 +45,7 @@
 }
 .TravelContent p {
   color: #9d9d9d;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   margin-bottom: 5px;
   text-align: left;
@@ -155,7 +156,7 @@
 }
 .travel3 .SideSpaceTravel .checkDate h6 {
   color: #000; 
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   margin: 0px 0 0px 0;
 }
@@ -165,11 +166,12 @@
 }
 .CreditSmallImg {
   display: flex;
+  justify-content: space-between;
 }
 .CreditSmallImg h4 {
   color: #000;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 19px;
   margin: 0;
 }
