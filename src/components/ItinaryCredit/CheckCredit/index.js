@@ -25,7 +25,7 @@ function CheckCredit() {
                 </div>
               </div>
             </div>
-            <div className={Styles.checkDate}>
+            <div className={`${Styles.checkDate} ${Styles.BorderNoneCheckDate}`}>
               <div className={Styles.TravelPrice}>
                 <div className={Styles.TravelPricea}>
                   <p>Price</p>
@@ -42,7 +42,7 @@ function CheckCredit() {
             <h5>8.6 Excellent</h5>
             <span>188 reviews</span>
             <div className={Styles.ExecllentTravel}>
-              <span className={Styles.ExecllentMargin}>Brekfast</span>
+              <span className={Styles.ExecllentMargin}>Breakfast</span>
               <span>Housekeeping</span>
             </div>
             <div className={Styles.MapTravel}>

@@ -1,0 +1,704 @@
+@font-face {
+  font-family: "NeueHaasUnica";
+  font-display: swap;
+  src: url("../../../public/font/NeueHaasUnica-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NeueHaasUnicaM";
+  font-display: swap;
+  src: url("../../../public/font/NeueHaasUnica-Medium.ttf");
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+ }
+
+.TravelPadding {
+  padding: 0 !important;
+}
+
+// .MainBannerIti {
+//   display: flex;
+//   width: 100%;
+// }
+
+// .MainBannerImageConvert {
+//   // display: flex;
+//   margin: auto;
+//   width: 100%;
+// }
+
+// .travel2a img {
+//   margin: 0 2px;
+// }
+
+// .travel1 {
+//   color: #222;
+// }
+
+// .MainBannerImg img {
+//   width: 100%;
+// }
+
+// .MainBannerItiControl {
+//   display: flex;
+// }
+
+// .MainBannerItiControl.bottom {
+//   margin-bottom: 18px;
+// }
+
+// .MainBannerItiImg.Side {
+//   margin: 0 18px;
+//   height: 200px;
+//   display: flex;
+//   overflow: hidden;
+//   width: 50%;
+// }
+
+// .MainBannerItiImg {
+//   width: 50%;
+//   // max-height: 158px;
+//   display: flex;
+//   overflow: hidden;
+// }
+
+// .MainBannerItiImg img {
+//   width: 100%;
+// }
+
+// .MainBannerImg img {
+//   border-radius: 12px 0px 0px 12px;
+//   // max-height: 337px;
+// }
+
+.MainBannerImg {
+  // max-height: 337px;
+}
+
+// .travel1 {111
+//   width: 100%;
+//   display: flex;
+//   margin: 34px 0;
+//   justify-content: space-between;
+// }
+
+// .travel2 {11
+//   width: 75%;
+//   border-radius: 20px;
+//   background: #fff;
+//   margin-right: 20px;
+//   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+// }
+
+// .travel3{
+//     width: 30%;
+// }
+// .controllUL {
+//   display: flex;
+// }
+
+// .controllUL .ul1:first-child {
+//   margin: 0 30% 0 0;
+// }
+
+// .controllUL:last-child {
+//   text-align: center;
+// }
+
+// .travel2a h2 {
+//   color: #000;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 25px;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: normal;
+//   margin: 0 0 8px 0;
+// }
+
+// .travel2a .travelP1 {
+//   color: #222;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+//   margin: 0 0 8px 0;
+// }
+
+// .travel2a .travelP2 {
+//   border-top: 1px solid #d9d9d9;
+// }
+
+// .travel2a .travelP2,
+// .routeAout p {
+//   margin: 0;
+//   color: #222;
+//   font-family: "NeueHaasUnica" !important;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: 24px;
+//   /* 150% */
+//   text-align: unset;
+// }
+
+.routePAdding {
+  padding: 0 25px 0 0px;
+}
+
+// .controllUL h3,
+// .route1 h3 {
+//   color: #222;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 20px;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: 24px;
+//   /* 120% */
+//   margin: 20px 0 11px 0;
+// }
+
+// .travel2a {11
+//   padding: 28px 28px 58px 28px;
+// }
+
+// .travel3a {
+//   border-radius: 20px;
+//   background: #fff;
+//   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+//   padding: 28px;
+//   margin: 0 0 0px 0;
+// }
+
+// .SideSpaceTravel {
+//   border-radius: 20px;
+//   background: #fff;
+//   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+//   padding: 28px;
+//   margin: 0 0 0px 0;
+// }
+
+// .TravHeight {
+//   margin: 30px 0 0 0;
+// }
+
+// .TravHeight span {
+//   color: #a3a3a3;
+//   font-family: "NeueHaasUnica" !important;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+// }
+// .controllUL .ul1 ul li {
+//   color: #222;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: 24px;
+// }
+// .route1 .RouteFlex {
+//   display: flex;
+//   justify-content: space-between;
+//   width: 100%;
+// }
+
+// .route1 .routeAa {
+//   margin: 35px 0 0 0;
+//   display: flex;
+// }
+
+// .routeAin h5 {
+//   color: #fff;
+//   text-align: center;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 10px;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: 14px;
+// }
+// .routeAin h5 {
+//   height: 55px;
+//   width: 55px;
+//   margin: 0;
+//   background-color: #000;
+//   border: 4px solid #949494;
+//   border-radius: 100px;
+//   padding: 12px;
+//   margin: 0 0px 31px 0;
+//   line-height: 10px;
+// }
+// .routeAin .RoutSpan {
+//   color: #fff;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 15px;
+//   font-style: normal;
+//   font-weight: 800;
+//   line-height: 14px;
+// }
+
+// .routeAin .routeWidthControl {
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .routeAin {
+//   width: 150px;
+// }
+// .routeAin p::before {
+//   position: absolute;
+//   content: "";
+//   width: 2px;
+//   height: 30px;
+//   top: 38px;
+//   border-right: 2px dashed #949494;
+//   display: flex;
+// }
+// .routeAin p::after {
+//   position: absolute;
+//   content: "";
+//   width: 2px;
+//   height: 30px;
+//   top: -30px;
+//   border-right: 2px dashed #949494;
+// }
+// .routeA {
+//   width: 50%;
+// }
+
+// .routeB {
+//   width: 50%;
+//   padding: 0 0 0 30px;
+// }
+// .routeAin p {
+//   margin: 0;
+//   color: #949494;
+//   text-align: center;
+//   font-family: "NeueHaasUnica" !important;
+//   font-size: 11px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: 17px;
+//   position: relative;
+//   text-align: center;
+//   display: flex;
+//   justify-content: center;
+// }
+
+// .travel3 .SideSpaceTravel .checkDate span {
+//   color: #a3a3a3;
+//   font-family: "NeueHaasUnica" !important;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+// }
+
+// .travel3 .SideSpaceTravel .checkDate h6 {
+//   color: #000;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 18px;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: normal;
+//   margin: 0px 0 0px 0;
+// }
+
+.routeA:first-child {
+  border-right: 1px solid #d9d9d9;
+}
+
+// .travel3 .SideSpaceTravel .checkDate {
+//   border-bottom: 1px solid #d9d9d9;
+//   margin: 0 0 6px 0;
+//   padding: 0 0 6px 0;
+// }
+// .travel3a h5 {
+//   color: #000;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 25px;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: normal;
+//   margin: 0 0 0px 0;
+// }
+// .ExecllentTravel {
+//   display: flex;
+//   margin: 6px 0 0 0;
+// }
+
+// .ExecllentTravel span {
+//   border: 0.5px solid #9d9d9d;
+//   background-color: #fff;
+//   color: #11aa39;
+//   text-align: center;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 12px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+//   padding: 8px;
+//   border-radius: 4px;
+// }
+
+// .ExecllentMargin {
+//   margin: 0 14px 0 0;
+// }
+
+// .MapTravel img {
+//   margin: 23px 0 0px 0;
+//   width: 100%;
+// }
+
+// .MapTravel h4 {
+//   color: #000;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+//   margin: 5px 0 5px 0;
+// }
+
+// .MapTravel span {
+//   color: #9d9d9d;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+// }
+
+// .MapTravel .ParkingFree {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   margin: 15px 0 0 0;
+//   border-bottom: 1px solid #d9d9d9;
+//   border-top: 1px solid #d9d9d9;
+// }
+
+// .ParkingFree h4 {
+//   color: #11aa39;
+//   text-align: right;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 14px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+// }
+
+// .MainBannerItiWIdth {
+//   width: 50%;
+//   float: left;
+// }
+
+// .MainBannerImg {
+//   width: 50%;
+//   float: left;
+//   height: 418px;
+//   overflow: hidden;
+//   display: flex;
+// }
+// .GuestFill {
+//   width: 100%;
+// }
+
+// .GuestFill .GuestForm {
+//   margin: 22px 0 0 0;
+// }
+
+// .GuestMainSection {
+//   width: 75%;
+//   padding-right: 16px;
+// }
+
+// .GuestMainSection button {
+//   color: #fff;
+//   text-align: center;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 20px;
+//   font-weight: 400;
+//   text-transform: uppercase;
+//   padding: 21px;
+//   width: 100%;
+//   border-radius: 10px;
+//   border: 2px solid #000;
+//   background: #000;
+//   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+//   margin: 20px 0 50px 0;
+// }
+
+// .GuestFromBorder {
+//   border-radius: 20px;
+//   background: #fff;
+//   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+//   padding: 25px;
+// }
+
+// .GuestFromBorder h3 {
+//   color: #000;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 25px;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: normal;
+//   padding: 0 0 23px 0;
+//   margin: 0;
+//   border-bottom: 1px solid #d9d9d9;
+// }
+
+// .GuestFromBorder .GuestForm label {
+//   color: #000;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 16px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+//   margin: 0 0 10px 0;
+// }
+
+// .GuestFlex {
+//   display: flex;
+// }
+
+// .GuestFromBorder .GuestForm label span {
+//   color: #000;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 9px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+// }
+
+// .GuestFromBorder .GuestForm input {
+//   border-radius: 4px;
+//   background: #ededed;
+//   width: 90%;
+//   height: 37px;
+//   border: none;
+//   padding: 0 0 0 15px;
+//   color: #949494;
+//   font-size: 16px;
+// }
+
+// .GuestFromBorder a {
+//   color: #8d2929;
+//   font-family: "NeueHaasUnicaM" !important;
+//   font-size: 18px;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: normal;
+//   text-decoration-line: underline;
+// }
+// .travel3Main {
+//   width: 25%;
+// }
+// .borderRaduis {
+//   border-radius: 0px 12px 12px 0px;
+// }
+@media (min-width: 1499.98px) {
+}
+@media (max-width: 1399.98px) {
+}
+@media (max-width: 1299.98px) {
+  // .route1 .routeAa {
+  //   margin: 35px 0 36px 0;
+  //   display: flex;
+  // }
+  // .routeAin p::before {
+  //   top: 55px;
+  // }
+}
+@media (max-width: 1199.98px) {
+  // .travel2a .travelP2,
+  // .routeAout p {
+  //   font-size: 14px;
+  // }
+  // .ExecllentTravel {
+  //   display: block;
+  // }
+
+  // .ExecllentTravel span {
+  //   margin: 0 4px 5px 0;
+  // }
+  
+}
+
+@media (max-width: 1024.98px) {
+  // .travel3Main {
+  //   width: 100%;
+  // }
+  // .travel2 {
+  //   width: 100%;
+  // }
+  // .travel1 {11
+  //   display: block;
+  // }
+  .container{
+    width: 90%;
+  }
+  // .GuestMainSection {
+  //   padding-right: 0;
+  // }
+
+  .MapTravel img {
+    margin: 23px 0 0px 0;
+    width: 100%;
+  }
+
+  // .travel3 {
+  //   justify-content: space-between;
+  //   display: flex;
+  //   width: 10%;
+  // }
+
+  // .SideSpaceTravel,
+  // .travel3a {
+  //   width: 48%;
+  // }
+
+  // .TravHeight {
+  //   margin: 0px 0 0 0;
+  // }
+
+  // .GuestMainSection {
+  //   width: 100%;
+  // }
+
+  // .MainBannerImg {
+  //   height: 318px;
+  // }
+
+  // .MainBannerItiImg.Side {
+  //   height: 150px;
+  // }
+
+
+
+  // .travel2a {11
+  //   margin: 0 0 30px 0;
+  // }
+
+}
+
+@media (max-width: 991.98px) {
+  // .travel2a {11
+  //   padding: 17px 17px 62px 17px;
+  // }
+  // .GuestFlex {
+  //   display: block;
+  //   width: 100%;
+  // }
+  // .GuestMainSection {
+  //   width: 100%;
+  // }
+
+  // .route1 .RouteFlex {
+  //   display: block;
+  // }
+
+  // .routeA:first-child {
+  //   border: none;
+  // }
+
+  // .routeB {
+  //   width: 50%;
+  //   padding: 1px 0 0 0;
+  // }
+
+
+}
+
+@media (max-width: 767.98px) {
+  // .MainBannerItiWIdth {
+  //   width: 100%;
+  //   margin: 18px 0 0 0;
+  // }
+
+  // .MainBannerImg {
+  //   width: 100%;
+  // }
+
+  // .MainBannerItiImg.Side {
+  //   margin: 0 18px 0 0px;
+  //   height: -webkit-fill-available;
+  // }
+
+  // .borderRaduis {
+  //   border-radius: 0px 0px 0px 0px;
+  // }
+  // .GuestFromBorder .GuestForm input {
+  //   width: 100%;
+  // }
+  .container {
+    width: 90%;
+    margin: auto;
+    // font-family: "NeueHaasUnica";
+  }
+
+
+  // .GuestFlex {
+  //   display: block;
+  // }
+  
+  // .MainBannerImg img {
+  //   border-radius: 0px 0px 0px 0px;
+  // }
+
+  // .routeAout p {
+  //   margin: 10px 0 0 0;
+  // }
+
+  // .routeAin {
+  //   width: 80px;
+  // }
+
+  // .routeA {
+  //   width: 100%;
+  // }
+
+  // .routeB {
+  //   width: 100%;
+  // }
+  
+}
+
+@media (max-width: 575.98px) {
+  // .MainBannerImg {
+  //   height: 170px;
+  //   border-radius: 0;
+  // }
+  // .controllUL h3 {
+  //   font-size: 18px;
+  // }
+  
+  // .controllUL {
+  //   display: block;
+  // }
+  // .GuestMainSection {
+  //   display: block;
+  // }
+  // .SideSpaceTravel,
+  // .travel3a {
+  //   width: 100%;
+  // }
+
+  // .SideSpaceTravel,
+  // .travel3a {
+  //   margin: 0 0 18px 0;
+  // }
+  // .travel3 {
+  //   display: block;
+  // }
+  // .routeAout p {
+  //   margin: 10px 0 0 27px;
+  // }
+
+
+
+}

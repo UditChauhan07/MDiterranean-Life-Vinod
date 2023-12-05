@@ -1,0 +1,107 @@
+import React, { useState } from 'react';
+import Styles from './Style.module.scss';
+
+const SimpleDropdown = () => {
+  const [selectedOptionA, setSelectedOptionA] = useState(null);
+  const [selectedOptionB, setSelectedOptionB] = useState(null);
+  const [selectedOptionC, setSelectedOptionC] = useState(null);
+  const [selectedOptionD, setSelectedOptionD] = useState(null);
+
+  const [dropdownVisibleA, setDropdownVisibleA] = useState(false);
+  const [dropdownVisibleB, setDropdownVisibleB] = useState(false);
+  const [dropdownVisibleC, setDropdownVisibleC] = useState(false);
+  const [dropdownVisibleD, setDropdownVisibleD] = useState(false);
+
+  const optionsA = ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
+  const optionsB = ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
+  const optionsC = ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
+  const optionsD = ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
+
+  const handleOptionSelectA = (option) => {
+    setSelectedOptionA(option);
+    setDropdownVisibleA(false);
+  };
+
+  const handleOptionSelectB = (option) => {
+    setSelectedOptionB(option);
+    setDropdownVisibleB(false);
+  };
+
+  const handleOptionSelectC = (option) => {
+    setSelectedOptionC(option);
+    setDropdownVisibleC(false);
+  };
+
+  const handleOptionSelectD = (option) => {
+    setSelectedOptionD(option);
+    setDropdownVisibleD(false);
+  };
+
+  return (
+    <div className={Styles.dropdownContainer}>
+      <div className={Styles.DropDraw}>
+        <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleA(!dropdownVisibleA)}>
+          {selectedOptionA || 'Price Range '}
+          {''}
+          <span className={Styles.arrow}>{dropdownVisibleA ? '▲' : '▼'}</span>
+        </div>
+        {dropdownVisibleA && (
+          <div className={Styles.dropdownList}>
+            {optionsA.map((option) => (
+              <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectA(option)}>
+                {option}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <div className={Styles.DropDraw}>
+        <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleB(!dropdownVisibleB)}>
+          {selectedOptionB || 'Category'}
+        </div>
+        {dropdownVisibleB && (
+          <div className={Styles.dropdownList}>
+            {optionsB.map((option) => (
+              <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectB(option)}>
+                {option}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <div className={Styles.DropDraw}>
+        <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleC(!dropdownVisibleC)}>
+          {selectedOptionC || 'Review'}
+        </div>
+        {dropdownVisibleC && (
+          <div className={Styles.dropdownList}>
+            {optionsC.map((option) => (
+              <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectC(option)}>
+                {option}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <div className={Styles.DropDraw}>
+        <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleD(!dropdownVisibleD)}>
+          {selectedOptionD || 'Price Range'}
+        </div>
+        {dropdownVisibleD && (
+          <div className={Styles.dropdownList}>
+            {optionsD.map((option) => (
+              <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectD(option)}>
+                {option}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default SimpleDropdown;
