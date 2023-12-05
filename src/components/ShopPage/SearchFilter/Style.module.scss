@@ -19,10 +19,14 @@
 .dropdownContainer{
 	display: flex;
 	gap :10px;
-
+	width: 90%;
+	margin: auto;
+    justify-content: space-between;
 	padding: 10px;
 	border-radius: 15px;
 background-color: #EDEDF5;
+height: 50px;
+align-items: center;
 }
 
 .dropdownHeader{
@@ -32,6 +36,12 @@ background-color: #EDEDF5;
 .DropDraw{
 	padding: 0 0 0 10px;
 	border-left: 1px solid #d9d9d9;
+	font-family:  "NeueHaasUnica"!important;;
+	font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+color: #000;
 }
 
 .dropdownItem:hover{
@@ -44,13 +54,15 @@ background-color: #EDEDF5;
 
 .SearchBarMain{
 	border-radius: 25px;
-border: 1px solid #000000;
+border: 1px solid #E5E5E5;;
 background: #FFF;
 display: flex;
 justify-content: space-between;
 align-items: center;
- padding: 15px 20px;
+ padding: 0px 20px;
  width: 100%;
+ position: relative;
+ top: -53RRpx;
 }
 
 .SearchBarMain input{
@@ -62,6 +74,15 @@ align-items: center;
 	// border: 0px solid;
 }
 
+.SearchBarMain input[type="text"]{
+	color: #939393;
+font-family: "NeueHaasUnica"!important;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
 .SearchBarC button{
 	border-radius: 12px;
 background: #000;color: #FFF;
@@ -70,7 +91,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-padding: 10px;
+padding:13px 26px;
 }
 
 .SearchBarA{
@@ -78,14 +99,17 @@ padding: 10px;
 	display: flex;
 	justify-content: start;
 	border-right: 1px solid #000;
+	
 }
 
 .SearchBarB{
 	width: 60%;
 	display: flex;
-	justify-content: center;
-	border-left: 1px solid;
-	border-right: 1px solid;
+	// justify-content: center;
+	justify-content: space-between;
+	border-left: 1px solid #E5E5E5;
+	border-right: 1px solid #E5E5E5;
+	height: 105px;
 }
 
 .SearchBarC{

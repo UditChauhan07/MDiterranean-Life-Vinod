@@ -6,7 +6,6 @@ function index() {
   return (
     
       <div>
-        index
         <SimpleDropdown></SimpleDropdown>
       </div>
     

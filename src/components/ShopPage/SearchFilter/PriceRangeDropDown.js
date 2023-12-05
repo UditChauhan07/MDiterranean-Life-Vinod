@@ -44,8 +44,9 @@ const SimpleDropdown = () => {
            <div className={Styles.SearchBarMain}>
             <div className={Styles.SearchBarA}>
               <img src='\package\SearchIconBlack.svg'/>
-              <input type="text" placeholder="Search"/>
+              <input type="text" placeholder="Search..."/>
             </div>
+            
             
             <div className={Styles.SearchBarB}>
 
