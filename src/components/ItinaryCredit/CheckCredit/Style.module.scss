@@ -180,6 +180,12 @@
   margin: 0;
 }
 @media (max-width: 1024.98px) {
+
+  .travel3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
   .TravHeight {
     margin: 0px 0 0 0;
   }
@@ -204,6 +210,10 @@
 }
 
 @media (max-width: 575.98px) {
+  .travel3{
+    display: block;
+    width: 100%;
+}
   .travel3 {
     display: block;
   }
