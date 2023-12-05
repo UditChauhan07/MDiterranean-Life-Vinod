@@ -38,7 +38,18 @@ const SimpleDropdown = () => {
   };
 
   return (
-    <div className={Styles.dropdownContainer}>
+    <div>
+      <section>
+        <div className={Styles.container}>
+           <div className={Styles.SearchBarMain}>
+            <div className={Styles.SearchBarA}>
+              <img src='\package\SearchIconBlack.svg'/>
+              <input type="text" placeholder="Search"/>
+            </div>
+            
+            <div className={Styles.SearchBarB}>
+
+            <div className={Styles.dropdownContainer}>
       <div className={Styles.DropDraw}>
         <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleA(!dropdownVisibleA)}>
           {selectedOptionA || 'Price Range '}
@@ -100,6 +111,19 @@ const SimpleDropdown = () => {
           </div>
         )}
       </div>
+    </div>
+            </div>
+
+            <div className={Styles.SearchBarC}>
+              <button>SEARCH</button>
+            </div>
+
+
+    
+
+    </div>
+    </div>
+    </section>
     </div>
   );
 };
