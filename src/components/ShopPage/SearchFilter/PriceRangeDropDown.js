@@ -41,90 +41,84 @@ const SimpleDropdown = () => {
     <div>
       <section>
         <div className={Styles.container}>
-           <div className={Styles.SearchBarMain}>
+          <div className={Styles.SearchBarMain}>
             <div className={Styles.SearchBarA}>
-              <img src='\package\SearchIconBlack.svg'/>
-              <input type="text" placeholder="Search..."/>
+              <img src="\package\SearchIconBlack.svg" />
+              <input type="text" placeholder="Search..." />
             </div>
-            
-            
+
             <div className={Styles.SearchBarB}>
+              <div className={Styles.dropdownContainer}>
+                <div className={Styles.DropDraw}>
+                  <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleA(!dropdownVisibleA)}>
+                    {selectedOptionA || 'Price Range '}
+                    {''}
+                    <span className={Styles.arrow}>{dropdownVisibleA ? '▲' : '▼'}</span>
+                  </div>
+                  {dropdownVisibleA && (
+                    <div className={Styles.dropdownList}>
+                      {optionsA.map((option) => (
+                        <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectA(option)}>
+                          {option}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
 
-            <div className={Styles.dropdownContainer}>
-      <div className={Styles.DropDraw}>
-        <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleA(!dropdownVisibleA)}>
-          {selectedOptionA || 'Price Range '}
-          {''}
-          <span className={Styles.arrow}>{dropdownVisibleA ? '▲' : '▼'}</span>
-        </div>
-        {dropdownVisibleA && (
-          <div className={Styles.dropdownList}>
-            {optionsA.map((option) => (
-              <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectA(option)}>
-                {option}
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
+                <div className={Styles.DropDraw}>
+                  <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleB(!dropdownVisibleB)}>
+                    {selectedOptionB || 'Category'}
+                  </div>
+                  {dropdownVisibleB && (
+                    <div className={Styles.dropdownList}>
+                      {optionsB.map((option) => (
+                        <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectB(option)}>
+                          {option}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
 
-      <div className={Styles.DropDraw}>
-        <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleB(!dropdownVisibleB)}>
-          {selectedOptionB || 'Category'}
-        </div>
-        {dropdownVisibleB && (
-          <div className={Styles.dropdownList}>
-            {optionsB.map((option) => (
-              <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectB(option)}>
-                {option}
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
+                <div className={Styles.DropDraw}>
+                  <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleC(!dropdownVisibleC)}>
+                    {selectedOptionC || 'Review'}
+                  </div>
+                  {dropdownVisibleC && (
+                    <div className={Styles.dropdownList}>
+                      {optionsC.map((option) => (
+                        <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectC(option)}>
+                          {option}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
 
-      <div className={Styles.DropDraw}>
-        <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleC(!dropdownVisibleC)}>
-          {selectedOptionC || 'Review'}
-        </div>
-        {dropdownVisibleC && (
-          <div className={Styles.dropdownList}>
-            {optionsC.map((option) => (
-              <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectC(option)}>
-                {option}
+                <div className={Styles.DropDraw}>
+                  <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleD(!dropdownVisibleD)}>
+                    {selectedOptionD || 'Price Range'}
+                  </div>
+                  {dropdownVisibleD && (
+                    <div className={Styles.dropdownList}>
+                      {optionsD.map((option) => (
+                        <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectD(option)}>
+                          {option}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
               </div>
-            ))}
-          </div>
-        )}
-      </div>
-
-      <div className={Styles.DropDraw}>
-        <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleD(!dropdownVisibleD)}>
-          {selectedOptionD || 'Price Range'}
-        </div>
-        {dropdownVisibleD && (
-          <div className={Styles.dropdownList}>
-            {optionsD.map((option) => (
-              <div key={option} className={Styles.dropdownItem} onClick={() => handleOptionSelectD(option)}>
-                {option}
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-    </div>
             </div>
 
             <div className={Styles.SearchBarC}>
               <button>SEARCH</button>
             </div>
-
-
-    
-
-    </div>
-    </div>
-    </section>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
