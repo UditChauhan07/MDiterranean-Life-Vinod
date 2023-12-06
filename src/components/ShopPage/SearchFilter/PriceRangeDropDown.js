@@ -43,17 +43,25 @@ const SimpleDropdown = () => {
         <div className={Styles.container}>
           <div className={Styles.SearchBarMain}>
             <div className={Styles.SearchBarA}>
-              <img src="\package\SearchIconBlack.svg" />
-              <input type="text" placeholder="Search..." />
+              <div className={Styles.SearchSection}>
+                <img src="\package\SearchIconBlack.svg" />
+                <input type="text" placeholder="Search..." />
+              </div>
             </div>
 
             <div className={Styles.SearchBarB}>
               <div className={Styles.dropdownContainer}>
-                <div className={Styles.DropDraw}>
+                <div className={`${Styles.DropDraw} ${Styles.dropdownBorder}`}>
                   <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleA(!dropdownVisibleA)}>
                     {selectedOptionA || 'Price Range '}
                     {''}
-                    <span className={Styles.arrow}>{dropdownVisibleA ? '▲' : '▼'}</span>
+                    <span className={Styles.arrow}>
+                      {dropdownVisibleA ? (
+                        <img src="\package\UpArrow.svg" alt="Arrow Up" />
+                      ) : (
+                        <img src="\package\DownArrow.svg" alt="Arrow Down" />
+                      )}
+                    </span>
                   </div>
                   {dropdownVisibleA && (
                     <div className={Styles.dropdownList}>
@@ -69,6 +77,14 @@ const SimpleDropdown = () => {
                 <div className={Styles.DropDraw}>
                   <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleB(!dropdownVisibleB)}>
                     {selectedOptionB || 'Category'}
+                    {''}
+                    <span className={Styles.arrow}>
+                      {dropdownVisibleB ? (
+                        <img src="\package\UpArrow.svg" alt="Arrow Up" />
+                      ) : (
+                        <img src="\package\DownArrow.svg" alt="Arrow Down" />
+                      )}
+                    </span>
                   </div>
                   {dropdownVisibleB && (
                     <div className={Styles.dropdownList}>
@@ -84,6 +100,14 @@ const SimpleDropdown = () => {
                 <div className={Styles.DropDraw}>
                   <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleC(!dropdownVisibleC)}>
                     {selectedOptionC || 'Review'}
+                    {''}
+                    <span className={Styles.arrow}>
+                      {dropdownVisibleC ? (
+                        <img src="\package\UpArrow.svg" alt="Arrow Up" />
+                      ) : (
+                        <img src="\package\DownArrow.svg" alt="Arrow Down" />
+                      )}
+                    </span>
                   </div>
                   {dropdownVisibleC && (
                     <div className={Styles.dropdownList}>
@@ -98,7 +122,15 @@ const SimpleDropdown = () => {
 
                 <div className={Styles.DropDraw}>
                   <div className={Styles.dropdownHeader} onClick={() => setDropdownVisibleD(!dropdownVisibleD)}>
-                    {selectedOptionD || 'Price Range'}
+                    {selectedOptionD || 'Discount'}
+                    {''}
+                    <span className={Styles.arrow}>
+                      {dropdownVisibleD ? (
+                        <img src="\package\UpArrow.svg" alt="Arrow Up" />
+                      ) : (
+                        <img src="\package\DownArrow.svg" alt="Arrow Down" />
+                      )}
+                    </span>
                   </div>
                   {dropdownVisibleD && (
                     <div className={Styles.dropdownList}>

@@ -1,84 +1,381 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Styles from './Styles.module.scss';
+import TopSellingProduct from '../TopSellingProduct/index';
+import BigLastBannerImg from '../BigLastBannerImg/index';
 
-function index() {
+function Index() {
+  const allProducts = [
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 2,
+      name: 'Jewellery',
+      description: 'Let your style shine',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg2.png',
+    },
+    {
+      id: 3,
+      name: 'Gladiator Sandal',
+      description: 'Contanzo’s style',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg3.png',
+    },
+    {
+      id: 4,
+      name: 'Carthusia',
+      description: 'Legends of Perfume',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg4.png',
+    },
+    {
+      id: 6,
+      name: 'Perfume',
+      description: 'Carthusia Fragrance',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg6.png',
+    },
+    {
+      id: 7,
+      name: 'Italian Wine',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg7.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg2.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg4.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg7.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg6.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg4.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg3.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg7.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg6.png',
+    },
+
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+    {
+      id: 1,
+      name: 'Ferragamo shoe',
+      description: 'Made in Italy',
+      price: 540,
+      rating: 4.6,
+      imageUrl: '/package/MainImg1.png',
+    },
+  ];
+  const itemsPerPage = 6;
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentProducts = allProducts.slice(startIndex, endIndex);
+
+  const totalPages = Math.ceil(allProducts.length / itemsPerPage);
+
+  const handlePageChange = (newPage) => {
+    setCurrentPage(newPage);
+  };
   return (
     <div>
-      <section>
-        <div className={Styles.container}>
-          <div className={Styles.ProductsPart}>
-            <div className={Styles.mainProduct}>
-              <div className={Styles.MainOne}>
-                <h1>Where Style Becomes Everyday Elegance!</h1>
-                <p>
-                  Every man’s life ends the same way. It is only details of how he lived and how he died that
-                  distinguish one man from another
-                </p>
-
-                {/* efef */}
-
-                <div className="wrapper">
-                  <div className={Styles.topHeader}>
-                    <div className={Styles.iconMenu}>
-                      <div className={Styles.menuMobile}>
-                        <img src="package/MainImg1.png" />
+      <div className={Styles.container}>
+        <div>
+          <div className={Styles.MainProductList}>
+            <div className={Styles.MainProductListAA}>
+              <h2 className={Styles.HTwoClass}>Where Style Becomes Everyday Elegance!</h2>
+              <p>
+                Every man’s life ends the same way. It is only details of how he lived and how he died that distinguish
+                one man from another
+              </p>
+              <div className={Styles.MainProductListA}>
+                {currentProducts.map((product, index) => (
+                  <div key={index} className={Styles.MainImgControl}>
+                    <div className={Styles.Control1}>
+                      <div className={Styles.ControlI}>
+                        <img src={product.imageUrl} alt={product.name} />
                       </div>
-                      <div className={Styles.menu__desktop}>
-                        <ul className={Styles.desktop__menu}>
-                          <li className={Styles.promo}>Promo</li>
-                          <li>Register</li>
-                          <li>Login</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <h3>Best Hotel By Customer</h3>
-                  </div>
-                  <div className={Styles.cards}>
-                    <div className={Styles.card}>
-                      <div className={Styles.card__img}>
-                        <picture>
-                          <source
-                            media="(max-width: 320px)"
-                            srcset="https://images.unsplash.com/photo-1530629013299-6cb10d168419?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&h=200&q=80"
-                          />
 
-                          <source
-                            media="(min-width: 538px)"
-                            srcset="https://images.unsplash.com/photo-1530629013299-6cb10d168419?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=200&q=1500"
-                          />
-
-                          <img src="https://images.unsplash.com/photo-1530629013299-6cb10d168419?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=200&q=1500" />
-                        </picture>
-                      </div>
-                      <div className={Styles.card__details}>
-                        <h3 for="cozyroom">Cozying Room</h3>
-                        <div className={Styles.address}>St.lorem ipsum des</div>
-                        <div className={Styles.price}>
-                          <div className={Styles.star}>
-                            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="" />
-                            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="" />
-                            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="" />
-                            <img src="https://image.flaticon.com/icons/svg/291/291205.svg" alt="" />
+                      <div className={Styles.ImgcontentAA}>
+                        <div className={Styles.ImgContent}>
+                          <div className={Styles.InnerA}>
+                            <h2>{product.name}</h2>
+                            <p>{product.description}</p>
+                            <p>
+                              <span className={Styles.DollarThin}>$</span>
+                              <span>{product.price}</span>
+                            </p>
                           </div>
-                          <div className={Styles.price__l}>
-                            <span className={Styles.price__label}>IDR 1500K /</span>
-                            <span className={Styles.measure__label}>night</span>
+
+                          <div className={Styles.InnerB}>
+                            <p>
+                              <img src="/package/GoldenStar.svg" alt="Star" /> {product.rating}
+                            </p>
+                            <div>
+                              <button>Add to Cart</button>
+                            </div>
                           </div>
                         </div>
-                        <button>Detail</button>
                       </div>
-                      <span className={Styles.creditImg}>image by: unsplash.com/@jazzband</span>
                     </div>
                   </div>
+                ))}
+              </div>
+              <div className={Styles.Pagination}>
+                <button
+                  className={Styles.BtnBorderNone}
+                  onClick={() => handlePageChange(currentPage - 1)}
+                  disabled={currentPage === 1}
+                >
+                  <img src="/package/arrowLeft.svg" />
+                </button>
+
+                <div className={Styles.PageNumbers}>
+                  {Array.from({ length: totalPages }, (_, index) => (
+                    <button
+                      key={index + 1}
+                      onClick={() => handlePageChange(index + 1)}
+                      className={currentPage === index + 1 ? Styles.ActivePage : null}
+                      style={{
+                        backgroundColor: currentPage === index + 1 ? '#10182f' : '#fff',
+                        color: currentPage === index + 1 ? '#fff' : '#10182f',
+                      }}
+                    >
+                      {index + 1}
+                    </button>
+                  ))}
                 </div>
+
+                {/* <span>{`Page ${currentPage} of ${totalPages}`}</span> */}
+
+                <button
+                  className={Styles.BtnBorderNone}
+                  onClick={() => handlePageChange(currentPage + 1)}
+                  disabled={endIndex >= allProducts.length}
+                >
+                  <img src="/package/arrowRight.svg" />
+                </button>
               </div>
             </div>
-            <div className={Styles.TopProduct}> </div>
+
+            <div className={Styles.MainProductListB}>
+              <TopSellingProduct></TopSellingProduct>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+      <BigLastBannerImg></BigLastBannerImg>
     </div>
   );
 }
 
-export default index;
+export default Index;

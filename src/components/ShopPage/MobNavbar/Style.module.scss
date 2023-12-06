@@ -1,0 +1,88 @@
+/* styles/Navbar.module.css */
+.navbar {
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+  }
+  
+  // .showMenu {
+  //   display: flex;
+  // }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menuIcon {
+    cursor: pointer;
+    display: none;
+    flex-direction: column;
+  }
+  
+  .iconLine {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+  }
+  
+
+  /* styles/Navbar.module.css */
+.navbar {
+    /* ... existing styles ... */
+    transition: background-color 0.3s;
+  }
+  
+  .menu {
+    /* ... existing styles ... */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .menu.showMenu {
+    opacity: 1;
+  }
+  
+  .menu a {
+    /* ... existing styles ... */
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .menu.showMenu a {
+    opacity: 1;
+  }
+  
+  .menuIcon {
+    /* ... existing styles ... */
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+  }
+  
+  .menuIcon.showMenu {
+    transform: rotate(90deg);
+  }
+  
+
+  // .showMenu{
+  //   background-color: aqua;
+  // }

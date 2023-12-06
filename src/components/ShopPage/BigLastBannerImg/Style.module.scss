@@ -1,0 +1,23 @@
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+.BigImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.BigImg img{
+    width: 100%;
+}
+
+
+@media (max-width: 1024.98px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+}

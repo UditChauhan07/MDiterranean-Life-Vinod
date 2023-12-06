@@ -1,314 +1,327 @@
+@font-face {
+	font-family: "NeueHaasUnica";
+	font-display: swap;
+	src: url("../../../../public/font/NeueHaasUnica-Regular.ttf");
+  }
+  
+  @font-face {
+	font-family: "NeueHaasUnicaM";
+	font-display: swap;
+	src: url("../../../../public/font/NeueHaasUnica-Medium.ttf");
+  }
+
+
 .container{
     width: 75%;
     margin: auto;
+    // border: 1px solid;
 }
 
-.ProductsPart{
+.MainProductList{
     width: 100%;
-}
-
-.ProductsPart .mainProduct{
-    width: 75%;
-}
-
-.ProductsPart .TopProduct{
-    width: 25%;
-}
-
-
-// iuwerhfiowuefh
-
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
-
-$default-radius : 5px;
-$radius         : 10px;
-$primary-gray   : #777777;
-$primary-white  : #FFFFFF;
-$primary-navy   : #51D6FB;
-$primary-red    : #D7493A;
-$base-grey      : #F4F4F4;
-
-
-
-.menu__desktop ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-
-}
-
-.topHeader {
-  position: relative;
-  height: 45px;
-  padding: 10px;
-  background: $primary-navy;
-  color: $primary-white;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  overflow: hidden;
-
-  .iconMenu {
+    // grid-template-columns: repeat(2, auto);
+    // display: grid;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 52px 0; 
     
-    .menuMobile {
-      text-align: left;
-      margin-top: -5px;
-    }
-
-    .menu__desktop {
-     display: none;
-    }
-  }
-  
-  h3 {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
-  }
-
-  &:before {
-    content: '';
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    background: darken($primary-navy, 10%);
-    height: 100%;
-    display: block;
-    position: absolute;
-    top: 32px;
-    left: 0;
-}
 }
 
-.cards {
-  margin-top: 1rem;
-  padding: 10px;
-
-  display: grid;
-  grid-gap: 2 * $radius;
-
-  font-family: 'Roboto', sans-serif;
-
-  .card {
-    position: relative;
-    max-height: 340px;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-
+.MainProductListA{
+    width: 100%;
+    // border: 1px solid;
     display: grid;
-    grid-gap: $radius;
-    grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
-
-
-    &__img {
-      max-height: 200px;
-      border-radius: $radius;
-      overflow: hidden;
-    }
-
-    &__details {
-      position: relative;
-      top: -36px;
-      width: 90%;
-      padding: 10px;
-      margin: 0 auto;
-      background: rgb(255, 255, 255);
-      border-radius: 10px;
-      box-shadow: 0 4px 8px 0 rgba(3, 6, 31, 0.15);
-
-      display: grid;
-      grid-gap: 5px;
-      
-      h3 {
-        font-size: 22px;
-        font-weight: 400;
-      }
-
-      .address {
-        color: $primary-gray;
-        font-size: 12px;
-      }
-
-      .price {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-        .price__l {
-          width: 100%;
-          text-align: right;
-          .price__label {
-            font-weight: 600;
-            text-align: right;
-          }
-        }
-
-        .star {
-         img{
-            width: 14px;
-         }
-        }
-      }
-
-      button {
-        cursor: pointer;
-        width: 100%;
-        padding: 15px;
-        border: none;
-        border-radius: 5px;
-        background: $primary-navy;
-        color: $primary-white;
-
-        &:focus {
-          outline: none;
-        }
-      }
-    }
-
-    .creditImg {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      padding: $radius;
-      font-size: 10px;
-      text-align: right;
-    }
-  }
+    grid-template-columns: repeat(2, auto);
+    gap: 30px;
 }
 
-@media (max-width: 347px) {
-  .cards {
-    .card {
-      &__details {
-        .price {  
-          align-items: baseline;
-          .price__l {
-            font-size: 12px;
-          }
-        }
-      }
-
-    }
-  }
+.MainProductListAA{
+    width: 75%;
+    border-right: 1px solid #d9d9d9;
+    padding: 5px 30px 0 0;
+    // border: 1px solid;
 }
 
-@media (min-width: 425px) {
-  .topHeader {
-    .iconMenu {
-      .menuMobile {
-        display: none;
-      }
-      .menu__desktop {
-        display: block;
-        ul.desktop__menu li {
-          cursor: pointer;
-          margin: 0 1rem;
-          padding: 2px 10px;
-
-          &.promo {
-            background: $primary-red;
-            border-radius: $default-radius;
-
-            &:hover {
-              background: darken($primary-red, 10%);
-            }
-          }
-        }
-      }
-    }
-  }
+.MainProductListAA h2{
+    color: #000;
+text-align: center;
+font-family:"NeueHaasUnica"!important;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 68.571% */
+margin: 0 0 30px 0;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  .cards {
-    .card {
-      grid-template-columns: 1fr 1fr;
-
-      &__details {
-        top: 0;
-        align-items: flex-start;
-        align-content: center;
-
-        grid-gap: 10px;
-
-        .price {  
-          grid-template-columns: auto 1fr;
-          font-size: 15px;
-        }
-
-        .address {
-          margin-top: -7px;
-        }
-      }
-
-      .creditImg {
-        padding: 15px 25px;
-      }
-    }
-  }
+.MainProductListAA p{
+    color: #333;
+text-align: center;
+font-family:"NeueHaasUnica"!important;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
 }
 
-@media (min-width: 481px) and (max-width: 767px)  {
-    .cards {
-      .card {
-        grid-template-columns: 1fr 1fr;
 
-        &__details {
-          top: 0;
-          align-items: flex-start;
-          align-content: center;
-
-          grid-gap: 10px;
-
-          .price {  
-            grid-template-columns: auto 1fr;
-            font-size: 15px;
-          }
-
-          .address {
-            margin-top: -7px;
-          }
-        }
-
-        .creditImg {
-          padding: 15px 25px;
-        }
-      }
-    }
-
+.ProductTopImg{
+    display: flex;
+    justify-content: center;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  .cards {
-    grid-template-columns: 1fr 1fr;
-
-    .creditImg {
-        font-size: 8px!important;
-    }
-  }
-  
+.MainProductListB{
+    width: 25%;
+    float: right;
+    padding: 5px 0 0 30px;
 }
 
-@media (min-width: 1025px)  {
-  
-  .wrapper {
-    width: 960px;
+
+.ImgcontentAA{
+    background-color: #EDEDF5; 
+    margin: 0 0 0px 0;  
+    height: 110px;
+    // padding: 10px;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+.ImgContent{
+    position: relative;
+        padding: 25px;
+    display: flex;
+    background-color: #fff;
+    width: 85%;
     margin: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    top: -63px;
+    border-radius: 5px;
 
-    .cards{
-      grid-template-columns: 1fr 1fr 1fr;
-
-      .card {
-        &__details {
-          h3 {
-            font-size: 18px;
-          }
-        }
-      }
-    }
-  }
-  
+    
 }
+
+.ImgContent h2{
+    color: #000;
+font-family: "NeueHaasUnica"!important;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; 
+margin: 0;
+text-align: start;
+}
+
+ .InnerA p{
+    color: #000;
+font-family: "NeueHaasUnica" !important;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+margin: 4px 0 8px 0;
+text-align: start;
+}
+
+.ImgContent .InnerA p span{
+    color: #000;
+font-family: "NeueHaasUnica" !important;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px;
+}
+
+.MainImgControl{
+    // display: flex;
+    // justify-content: space-between;
+
+}
+
+.InnerB p img{
+    margin: 0 8px 0 0;
+    width: 16px;
+    // height: 20px;
+}
+
+.InnerB p{
+    float: inline-end;
+    color: #000;
+text-align: center;
+font-family: "NeueHaasUnica" !important;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; /* 150% */
+display: flex;
+align-items: center;
+}
+
+.InnerB button {
+    color: #FFF;
+    font-family: "NeueHaasUnica" !important;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 200% */
+    text-transform: uppercase;
+    background-color: #000;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.ControlI{
+    background-color:#EDEDF5 ;
+    border-radius: 10px 10px 0px 0;
+}
+
+.ControlI img{
+width: 100%;
+border-radius: 10px;
+}
+
+.Control1{
+    margin: 0px 0;
+}
+
+.Pagination{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 50px 0;
+    
+}
+
+.disabled{
+    color: #10182F;
+    font-family: "NeueHaasUnica" !important;
+    font-size: 56px;
+}
+
+.Pagination .PageNumbers button  {
+    margin: 0 5px;
+    color: #10182F;
+font-family: "NeueHaasUnica" !important;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+border-radius: 4px;
+width: 36px;
+height: 36px;
+background-color: #FFF;
+}
+
+.Pagination .BtnBorderNone{
+    border: none;
+    background-color: transparent;
+    width: 36px;
+height: 36px;
+
+}
+
+.InnerA .DollarThin{
+    color: #000;
+text-align: center;
+font-family: "NeueHaasUnica" !important;
+font-size: 14px;
+font-style: normal;
+font-weight: 300 !important;
+line-height: 21px; /* 150% */
+}
+
+@media (max-width: 1024.98px) {
+
+    .MainProductListAA .HTwoClass {
+    color: #000;
+    text-align: center;
+    font-family: "NeueHaasUnica" !important;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 30px 0 30px 0;
+    }
+    .MainProductListA{
+               gap: 30px;
+    }
+
+    .ImgContent {
+                padding: 20px 20px 10px 20px ;
+                width: 90%;     
+        top: -44px;
+       }
+
+    .InnerB button {
+         font-size: 9px;
+        padding: 2px 5px;
+         }
+
+    .MainImgFive img{
+        width: unset;
+    }
+    .MainImgFive{
+    margin: 0 0 30px 0;
+}
+
+    .MainProductListAA{
+        width: 100%;
+        border-right: 0px solid #d9d9d9;
+        padding: 5px 0px 0 0;
+        // border: 1px solid;
+    }
+    
+    .container{
+        width: 90%;
+        margin: auto;
+        // border: 1px solid;
+    }
+
+    .MainProductList{
+        display: block;
+    }
+    .MainProductListB{
+        width: 100%;
+        display: flex;
+        // float: right;
+        padding: 52px 0 0 0px;
+        // display: grid;
+        // grid-template-columns: repeat(2, auto);
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .MainProductListAA .HTwoClass {
+        
+        font-size: 30px;
+        line-height: 35px;
+        
+        }
+    .ImgcontentAA{
+               margin: 0 0 0px 0;  
+        height: 90px;
+               
+    }
+    .MainProductListAA h2 {
+        font-size: 30px;
+    }
+    .InnerA h2{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .MainProductListAA .HTwoClass {
+        
+        font-size: 20px;
+        
+        }
+    .MainProductListB{
+        display: block;
+    }
+
+    .MainProductListA{
+             grid-template-columns: repeat(1, auto);
+        gap: 30px;
+    }
+}
+
